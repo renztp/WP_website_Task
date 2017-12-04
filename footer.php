@@ -12,7 +12,7 @@
            <div class="col-md-6 text-secondary">
             <h4>Made by wordpress</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores voluptatum atque iure sint obcaecati facilis aspernatur repudiandae debitis, animi, quis beatae illum ducimus. Iusto numquam molestiae dicta soluta inventore alias.</p>
-            <span>&copy; - Wordpress</span>
+            <span><i class="fa fa-copyright"></i> - Wordpress</span>
            </div>
        </div>
    </div> 

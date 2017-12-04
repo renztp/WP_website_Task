@@ -41,11 +41,14 @@ nav {
   box-shadow: 0px 5px 10px #ccc; }
 
 .prof {
+  border-bottom: 1px solid #edeff2;
+  border-btttom: 1px solid #edeff2;
   background: #f4f6f9; }
   .prof .teachers img {
     box-shadow: 0px 5px 10px #ddd;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease;
+    cursor: pointer; }
     .prof .teachers img:hover {
-      box-shadow: 0px 5px 15px #ccc; }
+      box-shadow: 0px 5px 15px #bcb5b5; }
 
 /*# sourceMappingURL=style.css.map */
