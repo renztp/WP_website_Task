@@ -32,3 +32,6 @@
 
 ## Color Palette Used
 ![](https://user-images.githubusercontent.com/33044507/33550521-36113a38-d929-11e7-87d3-580e27ddb8b1.png)
+
+## New Front Page
+![](https://user-images.githubusercontent.com/33044507/33554842-3a3c05b0-d939-11e7-95ea-c0954a198226.png)
