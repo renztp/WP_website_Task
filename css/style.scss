@@ -1,7 +1,8 @@
 header {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #3C0919;
     padding: 0.1rem;
     font-size: 0.8rem;
+    background-color: #7D1128;
     
     span {
         font-family: sans-serif
@@ -20,59 +21,62 @@ header {
 
 body {
     font-family: Roboto;
+    background: #edeff2;
 }
 
 nav {
+    background: #630D20;
     font-family: Oxygen;
     border-bottom: 1px solid #ccc;
-
     a {
-        color: #555;
+        color: #ddd;
     }
 
     span {
         font-size:10px;
         border-bottom: 1px solid #ccc;
     }
-    box-shadow: 0px 8px 10px #e2e2e2;
+
+    .theborder {
+        background: #333;
+        border: 1px solid #555;
+        &:active {
+            background: #666;
+        }
+    }
 }
 
-.back {
-    background-image: url('https://iso.500px.com/wp-content/uploads/2015/11/photo-128278505_1.jpg');
-    background-size: cover;
-    .theTitle {
-        height: 70vh;
+.remind {
+    font-size: 0.7rem;
+    .card-header {
+        font-size: 0.8rem;
     }
+}
 
-    .front-btn {
-        border: 1px solid #333;
+.login {
+    .card-header{
+        font-size: 0.8rem;
+    }
+ font-size: 0.9rem;
+ input, select {
+    font-size: 0.8rem;
+}
+.btn {
+        font-size: 0.7rem;
         cursor: pointer;
-        &:hover {
-            color: #999;
-            background: #333;
-        }
-    } 
-    border-bottom: 1px solid #ddd;
-}
-
-.figures .fig-1 {
-    img {
-        box-shadow: 0px 5px 10px #ccc;
     }
 }
 
-.prof {
-    border-bottom: 1px solid #edeff2;
-    border-btttom: 1px solid #edeff2;
-    background: #f4f6f9;
-    .teachers {
-        img {
-            box-shadow: 0px 5px 10px #ddd;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            &:hover {
-                box-shadow: 0px 5px 15px #bcb5b5;
-            }
-        }
-    }
+.card {
+    box-shadow: 0px 5px 10px #ddd;
+}
+
+.ad_1 {
+    height: 70vh;
+    margin-bottom: 20px;
+}
+
+.ad_2 {
+    height: 15vh;
+    margin-bottom: 20px;
 }

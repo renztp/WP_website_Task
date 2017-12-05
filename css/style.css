@@ -1,7 +1,8 @@
 header {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #3C0919;
   padding: 0.1rem;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  background-color: #7D1128; }
   header span {
     font-family: sans-serif; }
   header .col-md-6 a {
@@ -12,43 +13,48 @@ header {
       color: #888; }
 
 body {
-  font-family: Roboto; }
+  font-family: Roboto;
+  background: #edeff2; }
 
 nav {
+  background: #630D20;
   font-family: Oxygen;
-  border-bottom: 1px solid #ccc;
-  box-shadow: 0px 8px 10px #e2e2e2; }
+  border-bottom: 1px solid #ccc; }
   nav a {
-    color: #555; }
+    color: #ddd; }
   nav span {
     font-size: 10px;
     border-bottom: 1px solid #ccc; }
+  nav .theborder {
+    background: #333;
+    border: 1px solid #555; }
+    nav .theborder:active {
+      background: #666; }
 
-.back {
-  background-image: url("https://iso.500px.com/wp-content/uploads/2015/11/photo-128278505_1.jpg");
-  background-size: cover;
-  border-bottom: 1px solid #ddd; }
-  .back .theTitle {
-    height: 70vh; }
-  .back .front-btn {
-    border: 1px solid #333;
+.remind {
+  font-size: 0.7rem; }
+  .remind .card-header {
+    font-size: 0.8rem; }
+
+.login {
+  font-size: 0.9rem; }
+  .login .card-header {
+    font-size: 0.8rem; }
+  .login input, .login select {
+    font-size: 0.8rem; }
+  .login .btn {
+    font-size: 0.7rem;
     cursor: pointer; }
-    .back .front-btn:hover {
-      color: #999;
-      background: #333; }
 
-.figures .fig-1 img {
-  box-shadow: 0px 5px 10px #ccc; }
+.card {
+  box-shadow: 0px 5px 10px #ddd; }
 
-.prof {
-  border-bottom: 1px solid #edeff2;
-  border-btttom: 1px solid #edeff2;
-  background: #f4f6f9; }
-  .prof .teachers img {
-    box-shadow: 0px 5px 10px #ddd;
-    transition: all 0.3s ease;
-    cursor: pointer; }
-    .prof .teachers img:hover {
-      box-shadow: 0px 5px 15px #bcb5b5; }
+.ad_1 {
+  height: 70vh;
+  margin-bottom: 20px; }
+
+.ad_2 {
+  height: 15vh;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
