@@ -21,25 +21,8 @@
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <div class="row p-1">
-                <div class="col-md-6 text-left">
-                    <a href="#" class="pr-3"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="pr-3"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="pr-3"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="pr-3"><i class="fa fa-google-plus"></i></a>
-                </div>
-                <div class="col-md-6 text-right">
-                    <a href="#" class="pl-3"><i class="fa fa-phone"><span> 111 - 222 - 333</span></i></a>
-                    <a href="#" class="pl-3"><i class="fa fa-map-marker"><span> US, NYC</span></i></a>
-                </div>
-            </div>
-        </div>
-    </header>
-
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
+        <div class="container pl-0 pr-0">
             <a href="#" style="font-family: share; color: #777" class="navbar-brand"><i class="fa fa-book"> </i> SpeakIn</a>
             <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

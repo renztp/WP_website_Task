@@ -1,5 +1,5 @@
 <br>
-<div class="container p-0">
+<div class="container">
     <div class="row">
         <div class="col-md-3 p-0">
             <div class="card login mb-3">
@@ -110,13 +110,13 @@
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis consectetur cumque, </p>
             </div>
             <div class="col-md-4 pt-2 pb-4">
-                <img src="https://witheng.com/data/teacher/primary_photo_26053" width="100%" height="auto" class="img-thumbnail" alt="">
+                <img src="https://witheng.com/data/teacher/primary_photo_26053" width="100%" height="auto" class="rounded-0 img-thumbnail" alt="">
             </div>
             <div class="col-md-4 pt-2 pb-4">
-                <img src="https://witheng.com/data/teacher/primary_photo_23656" width="100%" height="auto" class="img-thumbnail" alt="">
+                <img src="https://witheng.com/data/teacher/primary_photo_23656" width="100%" height="auto" class="rounded-0 img-thumbnail" alt="">
             </div>
             <div class="col-md-4 pt-2 pb-4">
-                <img src="https://witheng.com/data/teacher/primary_photo_25289" width="100%" height="auto" class="img-thumbnail" alt="">
+                <img src="https://witheng.com/data/teacher/primary_photo_25289" width="100%" height="auto" class="rounded-0 img-thumbnail" alt="">
             </div>
         </div>
 
@@ -128,13 +128,13 @@
 
 
 <div class="col-md-2 p-0">
-    <div class="card ad_2">
+    <div class="card ad_2 mb-3">
         <div class="card-body">-- Data Here --</div>
     </div>
-    <div class="card ad_1">
+    <div class="card ad_1 mb-3">
         <div class="card-body">-- Data Here --</div>
     </div>
-    <div class="card ad_2">
+    <div class="card ad_2 mb-3">
         <div class="card-body">-- Data Here --</div>
     </div>
 </div>
