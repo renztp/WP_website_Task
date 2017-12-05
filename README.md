@@ -4,6 +4,9 @@
 ## Front Page
 ![](https://user-images.githubusercontent.com/33044507/33592746-66b2ac0a-d9c7-11e7-9df6-7599b0f0505c.png)
 
+## Front Page (Extended)
+![](https://user-images.githubusercontent.com/33044507/33593224-6c56b4ec-d9c9-11e7-9e8c-d03f772862bb.png)
+
 ## Forum Page
 ![](https://user-images.githubusercontent.com/33044507/33592748-66dacfd2-d9c7-11e7-8a86-75483f4665d2.png)
 
