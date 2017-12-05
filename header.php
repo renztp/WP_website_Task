@@ -41,14 +41,16 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="#" style="font-family: share; color: #777" class="navbar-brand"><i class="fa fa-book"> </i> SpeakIn</a>
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto" style="font-size: 0.8rem;">
                     <li class="nav-item pr-3"><a href="<?php echo home_url();?>" class="nav-link text-secondary">Home</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Classes</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Level test</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Review</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">About Us</a></li>
-                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary"><i class="fa fa-bars"></i></a></li>
+                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">About Us</a></li>
                 </ul>
                 <form class="form-inline my-1 my-lg-0">
                   <input class="form-control mr-sm-2 pb-1 pt-1 theborder" type="search" placeholder="Search" aria-label="Search">

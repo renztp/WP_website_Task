@@ -128,6 +128,9 @@
 
 
 <div class="col-md-2 p-0">
+    <div class="card ad_2">
+        <div class="card-body">-- Data Here --</div>
+    </div>
     <div class="card ad_1">
         <div class="card-body">-- Data Here --</div>
     </div>
