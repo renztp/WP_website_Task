@@ -79,6 +79,10 @@ nav {
     @extend %material_shadow;
 }
 
+.main {
+    @extend %material_shadow;
+}
+
 .card {
     @extend %material_shadow;
     .card-header {

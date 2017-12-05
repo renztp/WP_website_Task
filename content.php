@@ -97,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <div class="row ml-0 mr-0 mt-3" style="background: #fff;">
+        <div class="row main ml-0 mr-0 mt-3" style="background: #fff;">
             <div class="col-md-4 pt-2 pb-4">
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. onsectetur adipisicing elit. Earum minima dolor quae necessitatibus quam fuga,</p>
             </div>

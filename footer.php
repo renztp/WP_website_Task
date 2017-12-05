@@ -8,8 +8,8 @@
            </div>
        </div>
    </div> 
-   <div class="row">
-     <div class="col-md-12"  style="border-bottom: 1px solid #555; border-top: 1px solid #555;">
+   <div class="row  pr-0 mr-0">
+     <div class="col-md-12 "  style="border-bottom: 1px solid #555; border-top: 1px solid #555;">
        <div class="container">
         <ul class="nav end-nav justify-content-center">
           <li class="nav-item"><a href="<?php echo home_url();?>" class="nav-link text-secondary">Home</a></li>
@@ -23,7 +23,7 @@
      </div>
    </div>
    <div class="row">
-          <div class="col-md-12 text-center pt-2 pb-2">
+          <div class="col-md-12 text-center pt-2 pb-2 pr-0 mr-0">
             <i class="fa fa-copyright text-secondary"><span style="font-family: Roboto"> - Website Name</span></i> 
           </div>
         </div>
