@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Quicksand|Roboto" rel="stylesheet">
     <!-- NAVBRAND FONT -->
     <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
-    
+
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -47,7 +47,8 @@
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Classes</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Level test</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Review</a></li>
-                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">About Us</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">About Us</a></li>
+                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary"><i class="fa fa-bars"></i></a></li>
                 </ul>
                 <form class="form-inline my-1 my-lg-0">
                   <input class="form-control mr-sm-2 pb-1 pt-1 theborder" type="search" placeholder="Search" aria-label="Search">

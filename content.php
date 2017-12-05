@@ -3,17 +3,17 @@
     <div class="row">
         <div class="col-md-3 p-0">
             <div class="card login mb-3">
-                    <div class="card-body p-3 pt-2">
-                        <form>
-                          <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <button type="submit" class="btn btn-dark pull-right pr-3 pl-3">Submit</button>
-                    </form>
-                </div>
+                <div class="card-body p-3 pt-2">
+                    <form>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-dark pull-right pr-3 pl-3">Submit</button>
+                </form>
+            </div>
         </div>
         <div class="card remind mb-3">
             <div class="card-header pb-2 pt-2">Reminders</div>
