@@ -2,13 +2,13 @@
 
 
 ## Front Page
-![](https://user-images.githubusercontent.com/33044507/33554842-3a3c05b0-d939-11e7-95ea-c0954a198226.png)
+![](https://user-images.githubusercontent.com/33044507/33592746-66b2ac0a-d9c7-11e7-9df6-7599b0f0505c.png)
 
 ## Forum Page
-![](https://user-images.githubusercontent.com/33044507/33591975-9c361bae-d9c3-11e7-8092-c973112da1a4.png)
+![](https://user-images.githubusercontent.com/33044507/33592748-66dacfd2-d9c7-11e7-8a86-75483f4665d2.png)
 
 ## Login Page
-![](https://user-images.githubusercontent.com/33044507/33591976-9c5f66bc-d9c3-11e7-9f12-2f18c057ee1f.png)
+![](https://user-images.githubusercontent.com/33044507/33592749-67029670-d9c7-11e7-8b5b-63833e7a4a27.png)
 
 ## Register Page
-![](https://user-images.githubusercontent.com/33044507/33592313-4aa6fe82-d9c5-11e7-8904-b501509179d3.png)
+![](https://user-images.githubusercontent.com/33044507/33592750-6729a5e4-d9c7-11e7-8975-20c73d19bbca.png)
