@@ -29,7 +29,7 @@
             </button> 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto" style="font-size: 0.8rem;">
-                    <li class="nav-item pr-3"><a href="<?php echo home_url();?>" class="nav-link text-secondary">Home</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url();?>" class="pl-0 nav-link text-secondary">Home</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Classes</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Level test</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Review</a></li>
