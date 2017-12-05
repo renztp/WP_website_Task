@@ -11,4 +11,4 @@
 ![](https://user-images.githubusercontent.com/33044507/33591976-9c5f66bc-d9c3-11e7-9f12-2f18c057ee1f.png)
 
 ## Register Page
-![](https://user-images.githubusercontent.com/33044507/33592260-f9195524-d9c4-11e7-9b60-104a2c5ff058.png)
+![](https://user-images.githubusercontent.com/33044507/33592313-4aa6fe82-d9c5-11e7-8904-b501509179d3.png)
