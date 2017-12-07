@@ -1,0 +1,85 @@
+header {
+    background-color: #7D1128;
+    
+    span {
+        font-family: sans-serif
+    }
+
+    .col-md-6 a {
+        color: #ccc;
+        &:hover {
+            color: #888;
+        }
+    }
+
+}
+
+body {
+    font-family: Roboto;
+    background: #edeff2;
+}
+nav {
+    background: #222;
+    font-family: Oxygen;
+
+    a {
+        color: #fff;
+    }
+
+    .theborder {
+        background: #333;
+        &:active {
+            background: #666;
+        }
+    }
+
+    .form-inline {
+        input{
+            background: #333;
+            &:focus {
+                color: #ccc;
+                background: #333;     
+            }
+        }
+        button { background: #444; border: 0; color: #222; }
+    }
+
+    .input-group-addon  {
+        border-radius: 0;
+    }
+}
+
+#carouselExampleIndicators {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+}
+
+.carousel-item {
+    img {
+        filter: contrast(50%);
+    }
+}
+
+.login {
+    input, select, span {
+        color: #777;
+    }
+}
+
+
+.card {
+    .card-header {
+        background: #ccc;
+    }
+}
+
+.main {
+    background: #fff;
+}

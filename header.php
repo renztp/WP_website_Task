@@ -21,25 +21,30 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container pl-0 pr-0">
-            <a href="#" style="font-family: share; color: #777" class="navbar-brand"><i class="fa fa-book"> </i> SpeakIn</a>
+            <a href="#" style="font-family: share;" class="navbar-brand"><i class="fa fa-book"> </i> SpeakIn</a>
             <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto" style="font-size: 0.8rem;">
-                    <li class="nav-item pr-3"><a href="<?php echo home_url();?>" class="pl-0 nav-link text-secondary">Home</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Classes</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Level test</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Review</a></li>
-                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">About Us</a></li>
+            <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto ml-0" id="theNav" style="font-size: 0.8rem;">
+                    <li class="nav-item pr-3"><a href="<?php echo home_url();?>" class="pl-0 nav-link">Home</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Classes</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Level test</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Review</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">About Us</a></li>
+                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link"><i class="fa fa-bars"></i></a></li>
                 </ul>
-                <form class="form-inline my-1 my-lg-0">
-                  <input class="form-control mr-sm-2 pb-1 pt-1 theborder" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn my-2 my-sm-0 bg-dark text-light pt-1 pb-1 theborder" type="submit">Search</button>
-              </form>
-          </div>
+
+                <form class="form-inline">
+                    <div class="input-group border-0">
+                        <input class="form-control rounded-0 border-0 ml-2 pt-1 pb-1" style="width: 9.4rem" placeholder="Search">
+                        <button class="input-group-addon" id="basic-addon rounded-0 border-0"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </form>
+        </div>
       </div>
     </nav>
 

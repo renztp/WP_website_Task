@@ -1,0 +1,54 @@
+body {
+  font-family: Roboto;
+  background: #edeff2; }
+
+.btn {
+  background: #214582;
+  color: #ddd;
+  border: 0; }
+  .btn:hover {
+    background: #274f96; }
+
+nav {
+  background: #2b53c4;
+  font-family: Oxygen; }
+  nav .form-inline input {
+    background: #fff; }
+    nav .form-inline input:focus {
+      color: #888;
+      background: #fff; }
+  nav .form-inline button {
+    background: #d7dfed;
+    border: 0;
+    color: #333; }
+  nav a {
+    color: #fff; }
+  nav .input-group-addon {
+    border-radius: 0; }
+
+#carouselExampleIndicators {
+  height: 300px;
+  width: auto;
+  overflow: hidden; }
+
+.carousel-inner {
+  height: 300px;
+  width: auto;
+  overflow: hidden; }
+
+.carousel-item img {
+  filter: contrast(50%); }
+
+.login input, .login select, .login span {
+  color: #777; }
+
+.card .card-header {
+  background: #769de0;
+  color: darkblue; }
+
+.main {
+  background: #fff; }
+
+/*# sourceMappingURL=blue.css.map */
+
+/*# sourceMappingURL=blue.css.map */

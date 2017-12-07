@@ -1,8 +1,21 @@
-TITLE: ANALOGUE
-ABOUT: Photography, lomography, etc. information/history
-        about a certain photo etc.
+##TASKS  
+
+MISC
+    [X] - REMOVE BORDER COMPLETELY
+    [X] - REMOVE BORDER RADIUS COMPLETELY
+    [X] - REMOVE BOX-SHADOW COMPLETELY
 
 
-NAVIGATION: Home - The home page
-            Photos - Photos of people
-            
+MAIN: Make Themes
+    [ ] - DARK THEME
+    [ ] - LIGHT THEME
+    [ ] - BLUE THEME
+    [ ] - RED THEME
+    [X] - DEFAULT
+
+COMPO:
+    [X] - FORGOT PASSWORD
+    [X] - RESERVATIONS (3 LINES) 
+    [X] - FREE CLASS LIST (3 LINES)
+    [X] - FIX ALIGN SEARCH BOX
+    [X] - FIX MENU BAR COLOR
