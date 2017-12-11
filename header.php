@@ -5,7 +5,7 @@
     <title>Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/stylesheets/css/main.css">
     <!-- ICONS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <!-- BODY FONTS -->
@@ -21,25 +21,25 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navi-dark">
         <div class="container pl-0 pr-0">
-            <a href="#" style="font-family: share;" class="navbar-brand"><i class="fa fa-book"> </i> SpeakIn</a>
+            <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/book-icon.svg" width="30" height="30" alt=""> SpeakIn</a>
             <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> 
             <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto ml-0" id="theNav" style="font-size: 0.8rem;">
-                    <li class="nav-item pr-3"><a href="<?php echo home_url();?>" class="pl-0 nav-link">Home</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Classes</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="pl-0 nav-link">Home</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/classes/" class="nav-link">Classes</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Level test</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Review</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">About Us</a></li>
-                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link"><i class="fa fa-bars"></i></a></li>
+                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link">About Us</a></li>
+                    <!-- <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link"><i class="fa fa-bars"></i></a></li> -->
                 </ul>
 
                 <form class="form-inline">
                     <div class="input-group border-0">
-                        <input class="form-control rounded-0 border-0 ml-2 pt-1 pb-1" style="width: 9.4rem" placeholder="Search">
+                        <input class="form-control rounded-0 border-0 ml-5 pt-1 pb-1" style="width: 9.4rem" placeholder="Search">
                         <button class="input-group-addon" id="basic-addon rounded-0 border-0"><i class="fa fa-search"></i></button>
                     </div>
                 </form>

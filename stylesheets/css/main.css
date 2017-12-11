@@ -1,0 +1,239 @@
+header {
+  background-color: #7D1128; }
+  header span {
+    font-family: sans-serif; }
+  header .col-md-6 a {
+    color: #ccc; }
+    header .col-md-6 a:hover {
+      color: #888; }
+
+nav {
+  font-family: Oxygen; }
+  nav a {
+    color: #fff; }
+  nav .theborder {
+    background: #333; }
+    nav .theborder:active {
+      background: #666; }
+  nav .input-group-addon {
+    border-radius: 0; }
+
+#carouselExampleIndicators {
+  height: 367px;
+  width: auto;
+  overflow: hidden; }
+
+.carousel-inner {
+  height: 367px;
+  width: auto;
+  overflow: hidden; }
+
+.login input, .login select, .login span {
+  color: #777; }
+
+.main {
+  background: #fff; }
+
+body {
+  font-family: Roboto, sans-serif, verdana, serif;
+  background: #edeff2; }
+
+p {
+  font-size: 0.850rem; }
+
+nav {
+  text-transform: uppercase;
+  font-family: Oxygen; }
+  nav .navbar-brand {
+    text-transform: capitalize; }
+  nav span {
+    font-size: 10px; }
+  nav .form-inline {
+    border: 0px; }
+    nav .form-inline button {
+      border: 0px; }
+
+.carousel-inner, .carousel-item {
+  height: 367px;
+  width: auto;
+  overflow: hidden; }
+
+.carousel-item img {
+  filter: contrast(40%); }
+
+.carousel-caption p {
+  font-size: 1rem; }
+
+.m-login {
+  font-size: 0.8rem; }
+  .m-login .card-header {
+    font-size: 0.8rem; }
+  .m-login input, .m-login select {
+    font-size: 0.8rem; }
+  .m-login .btn {
+    font-size: 0.7rem;
+    cursor: pointer; }
+  .m-login span {
+    font-size: 0.750rem; }
+
+.m-remind {
+  font-size: 0.7rem; }
+  .m-remind .card-header {
+    font-size: 0.8rem; }
+  .m-remind .btn {
+    font-size: 0.8rem;
+    cursor: pointer; }
+
+.m-teacher-cards .card:hover {
+  background: #ddd;
+  cursor: pointer; }
+.m-teacher-cards p {
+  overflow: hidden;
+  line-height: 1.2em;
+  max-height: 3rem;
+  text-overflow: ellipsis; }
+.m-teacher-cards a {
+  font-size: 0.8rem; }
+
+.m-ad_1 {
+  background-image: url(http://static.wirtualnemedia.pl/media/top/evan-spot-biblioteka655.jpg);
+  background-size: cover;
+  color: #fff;
+  background-position: -200px;
+  margin-bottom: 20px;
+  height: 62.8vh; }
+
+.m-ad_2 {
+  margin-bottom: 20px;
+  height: 24.2vh; }
+
+.m-ad_3 {
+  background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
+  background-size: 100%;
+  margin-bottom: 20px;
+  height: 26.1vh; }
+
+nav a:hover {
+  color: #ddd; }
+
+.navi-dark {
+  background: #333333;
+  color: #2e2e2e; }
+  .navi-dark .form-inline input {
+    background: #1a1a1a; }
+    .navi-dark .form-inline input:focus {
+      background: #0a0a0a; }
+  .navi-dark .form-inline button {
+    background: #242424;
+    color: #666666; }
+
+.navi-light {
+  background: white;
+  color: #e6e6e6; }
+  .navi-light .form-inline input {
+    background: gray; }
+    .navi-light .form-inline input:focus {
+      background: #333333; }
+  .navi-light .form-inline button {
+    background: #b3b3b3;
+    color: white; }
+
+.navi-primary {
+  background: #333333;
+  color: #2e2e2e; }
+  .navi-primary .form-inline input {
+    background: #1a1a1a; }
+    .navi-primary .form-inline input:focus {
+      background: #0a0a0a; }
+  .navi-primary .form-inline button {
+    background: #242424;
+    color: #666666; }
+
+.navi-secondary {
+  background: #888888;
+  color: #7a7a7a; }
+  .navi-secondary .form-inline input {
+    background: #444444; }
+    .navi-secondary .form-inline input:focus {
+      background: #1b1b1b; }
+  .navi-secondary .form-inline button {
+    background: #5f5f5f;
+    color: white; }
+
+.navi-important {
+  background: red;
+  color: #e60000; }
+  .navi-important .form-inline input {
+    background: maroon; }
+    .navi-important .form-inline input:focus {
+      background: #330000; }
+  .navi-important .form-inline button {
+    background: #b30000;
+    color: red; }
+
+.card-bgc-dark {
+  background: #333333; }
+  .card-bgc-dark .list-group-item {
+    background: #333333; }
+  .card-bgc-dark .card-header {
+    background: #292929;
+    color: #1a1a1a; }
+  .card-bgc-dark input, .card-bgc-dark select, .card-bgc-dark span {
+    color: #1a1a1a; }
+
+.card-bgc-light {
+  background: white; }
+  .card-bgc-light .list-group-item {
+    background: white; }
+  .card-bgc-light .card-header {
+    background: #cccccc;
+    color: gray; }
+  .card-bgc-light input, .card-bgc-light select, .card-bgc-light span {
+    color: gray; }
+
+.card-bgc-primary {
+  background: #333333; }
+  .card-bgc-primary .list-group-item {
+    background: #333333; }
+  .card-bgc-primary .card-header {
+    background: #292929;
+    color: #1a1a1a; }
+  .card-bgc-primary input, .card-bgc-primary select, .card-bgc-primary span {
+    color: #1a1a1a; }
+
+.card-bgc-secondary {
+  background: #888888; }
+  .card-bgc-secondary .list-group-item {
+    background: #888888; }
+  .card-bgc-secondary .card-header {
+    background: #6d6d6d;
+    color: #444444; }
+  .card-bgc-secondary input, .card-bgc-secondary select, .card-bgc-secondary span {
+    color: #444444; }
+
+.card-bgc-important {
+  background: red; }
+  .card-bgc-important .list-group-item {
+    background: red; }
+  .card-bgc-important .card-header {
+    background: #cc0000;
+    color: maroon; }
+  .card-bgc-important input, .card-bgc-important select, .card-bgc-important span {
+    color: maroon; }
+
+.buttons-dark {
+  background: #333; }
+
+.buttons-light {
+  background: #fff; }
+
+.buttons-primary {
+  background: #333; }
+
+.buttons-secondary {
+  background: #888; }
+
+.buttons-important {
+  background: red; }
+
+/*# sourceMappingURL=main.css.map */

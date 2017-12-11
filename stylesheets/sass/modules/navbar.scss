@@ -1,0 +1,13 @@
+nav {
+    text-transform: uppercase;
+    font-family: Oxygen;
+    
+    .navbar-brand { text-transform: capitalize; }
+    span { font-size:10px; }
+    .form-inline {
+        border: 0px;
+        button {
+            border: 0px;
+        }
+    }
+}

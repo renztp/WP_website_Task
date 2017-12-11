@@ -1,0 +1,19 @@
+%static_car {
+    height: 367px;
+    width: auto;
+    overflow: hidden;
+}
+
+.carousel-inner { @extend %static_car; }
+
+.carousel-item { @extend %static_car; }
+
+.carousel-item {
+    img {
+        filter: contrast(40%);
+    }
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}

@@ -1,0 +1,66 @@
+.m-login {
+    font-size: 0.8rem;
+    .card-header{ font-size: 0.8rem; }
+    input, select { font-size: 0.8rem; }
+    .btn {
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+
+    span { font-size: 0.750rem; }
+}
+
+
+
+.m-remind {
+    font-size: 0.7rem;
+    .card-header { font-size: 0.8rem; }
+    .btn {
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+}
+
+.m-teacher-cards {
+    .card {
+        &:hover {
+            background: #ddd;
+            cursor: pointer;
+        }
+    }
+    p {
+        overflow: hidden;
+        line-height: 1.2em;
+        max-height: 3rem;
+        text-overflow: ellipsis;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+}
+
+.m-ad_1 {
+    background-image: url(http://static.wirtualnemedia.pl/media/top/evan-spot-biblioteka655.jpg);
+    background-size: cover;
+    color: #fff;
+    background-position: -200px;
+    margin-bottom: 20px;
+    height: 62.8vh;
+}
+
+
+
+.m-ad_2 {
+    // background-image: url(https://www.shareasale.com/image/36237/250x250_square_ad_002.jpg);
+    // background-size: 100%;
+    margin-bottom: 20px;
+    height: 24.2vh;
+}
+
+.m-ad_3 {
+    background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
+    background-size: 100%;
+    margin-bottom: 20px;
+    height: 26.1vh;
+}

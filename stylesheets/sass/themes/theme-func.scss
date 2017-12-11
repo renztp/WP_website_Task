@@ -1,0 +1,46 @@
+@import 'theme-colors';
+
+
+
+
+// for navbar
+@each $theList, $color in $colors {
+    .navi-#{$theList} {
+        background: $color * 1;
+        color: $color * .9;
+        .form-inline {
+            input {
+                background: $color * .5;
+                &:focus {
+                    background: $color * .2;
+                }
+            }
+            button {
+                background: $color * .7;
+                color: $color * 2;
+            }
+        }
+    }
+}
+
+@each $card, $color in $colors {
+    .card-bgc-#{$card}{
+        background: $color * 1;
+        .list-group-item {
+            background: $color * 1;
+        }
+        .card-header {
+            background: $color * .8;
+            color: $color * .5; 
+        }
+
+        input, select, span {
+            color: $color * .5;
+        }
+    }
+}
+
+@each $buttons, $color in $colors {
+    .buttons-#{$buttons} { background: $color; }
+}
+

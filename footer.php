@@ -24,7 +24,7 @@
    </div>
    <div class="row">
           <div class="col-md-12 text-center pt-2 pb-2 pr-0 mr-0">
-            <i class="fa fa-copyright text-secondary"><span style="font-family: Roboto"> - Website Name</span></i> 
+            <i class="fa fa-copyright text-secondary"><span style="font-family: Roboto"> - SpeakIn</span></i> 
           </div>
         </div>
 </footer>

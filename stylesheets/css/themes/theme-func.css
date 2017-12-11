@@ -1,0 +1,121 @@
+.navi-dark {
+  background: #333333;
+  color: #2e2e2e; }
+  .navi-dark .form-inline input {
+    background: #1a1a1a; }
+    .navi-dark .form-inline input:focus {
+      background: #0a0a0a; }
+  .navi-dark .form-inline button {
+    background: #242424;
+    color: #666666; }
+
+.navi-light {
+  background: white;
+  color: #e6e6e6; }
+  .navi-light .form-inline input {
+    background: gray; }
+    .navi-light .form-inline input:focus {
+      background: #333333; }
+  .navi-light .form-inline button {
+    background: #b3b3b3;
+    color: white; }
+
+.navi-primary {
+  background: #333333;
+  color: #2e2e2e; }
+  .navi-primary .form-inline input {
+    background: #1a1a1a; }
+    .navi-primary .form-inline input:focus {
+      background: #0a0a0a; }
+  .navi-primary .form-inline button {
+    background: #242424;
+    color: #666666; }
+
+.navi-secondary {
+  background: #888888;
+  color: #7a7a7a; }
+  .navi-secondary .form-inline input {
+    background: #444444; }
+    .navi-secondary .form-inline input:focus {
+      background: #1b1b1b; }
+  .navi-secondary .form-inline button {
+    background: #5f5f5f;
+    color: white; }
+
+.navi-important {
+  background: red;
+  color: #e60000; }
+  .navi-important .form-inline input {
+    background: maroon; }
+    .navi-important .form-inline input:focus {
+      background: #330000; }
+  .navi-important .form-inline button {
+    background: #b30000;
+    color: red; }
+
+.card-bgc-dark {
+  background: #333333; }
+  .card-bgc-dark .list-group-item {
+    background: #333333; }
+  .card-bgc-dark .card-header {
+    background: #292929;
+    color: #1a1a1a; }
+  .card-bgc-dark input, .card-bgc-dark select, .card-bgc-dark span {
+    color: #1a1a1a; }
+
+.card-bgc-light {
+  background: white; }
+  .card-bgc-light .list-group-item {
+    background: white; }
+  .card-bgc-light .card-header {
+    background: #cccccc;
+    color: gray; }
+  .card-bgc-light input, .card-bgc-light select, .card-bgc-light span {
+    color: gray; }
+
+.card-bgc-primary {
+  background: #333333; }
+  .card-bgc-primary .list-group-item {
+    background: #333333; }
+  .card-bgc-primary .card-header {
+    background: #292929;
+    color: #1a1a1a; }
+  .card-bgc-primary input, .card-bgc-primary select, .card-bgc-primary span {
+    color: #1a1a1a; }
+
+.card-bgc-secondary {
+  background: #888888; }
+  .card-bgc-secondary .list-group-item {
+    background: #888888; }
+  .card-bgc-secondary .card-header {
+    background: #6d6d6d;
+    color: #444444; }
+  .card-bgc-secondary input, .card-bgc-secondary select, .card-bgc-secondary span {
+    color: #444444; }
+
+.card-bgc-important {
+  background: red; }
+  .card-bgc-important .list-group-item {
+    background: red; }
+  .card-bgc-important .card-header {
+    background: #cc0000;
+    color: maroon; }
+  .card-bgc-important input, .card-bgc-important select, .card-bgc-important span {
+    color: maroon; }
+
+.buttons-dark {
+  background: #333; }
+
+.buttons-light {
+  background: #fff; }
+
+.buttons-primary {
+  background: #333; }
+
+.buttons-secondary {
+  background: #888; }
+
+.buttons-important {
+  background: red; }
+
+/*# sourceMappingURL=theme-func.css.map */

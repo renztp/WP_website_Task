@@ -7,11 +7,7 @@ MISC
 
 
 MAIN: Make Themes
-    [ ] - DARK THEME
-    [ ] - LIGHT THEME
-    [ ] - BLUE THEME
-    [ ] - RED THEME
-    [X] - DEFAULT
+    [ ] - FIX THEME
 
 COMPO:
     [X] - FORGOT PASSWORD
@@ -19,3 +15,10 @@ COMPO:
     [X] - FREE CLASS LIST (3 LINES)
     [X] - FIX ALIGN SEARCH BOX
     [X] - FIX MENU BAR COLOR
+    [ ] - ADD MORE INFORMATION
+
+
+SASS:
+    [ ] - USE SASS RIGHT WAY
+    [ ] - USE CSS RIGHT WAY
+    [ ] - USE SMACSS RIGHT WAY
