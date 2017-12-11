@@ -13,7 +13,7 @@
                     <div class="form-group">
                         <input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
                     </div>
-                    <input type="checkbox"><span> Forgot Password? or <a href="<?php echo home_url(); ?>/index.php/register/" class="text-secondary"><u>Register</u></a>.</span>
+                    <span> <a href="#" data-toggle="modal" data-target="#exampleModal"  class="text-secondary"><u>Forgot Password?</u></a> or <a href="<?php echo home_url(); ?>/index.php/register/" class="text-secondary"><u>Register</u></a>.</span>
                         <a href="<?php echo home_url(); ?>/index.php/login/" class="btn btn-secondary pr-3 pl-3 rounded-0 pull-right">Login</a></a>
                 </form>
             </div>
@@ -298,3 +298,27 @@
 </div>
 </div>
 <br>
+
+
+<!-- MODAL -->
+<div class="modal rounded-0 mt-5 fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content rounded-0">
+      <div class="modal-body pt-3 pb-3 pl-2 pr-2 text-center">
+        
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/locked.svg" alt="" style="width: 15%; text-center" class="pt-5 pb-4">
+        <h4>Forgot your password?</h4>
+        <p class="lead pb-3 text-secondary">Enter your email address<br>so we can help you
+        <br>find your lost password.</p>
+        <div class="input-group pl-5 pr-5 pb-4">
+          <input type="email" class="form-control w-90" placeholder="Email Address..." aria-label="Email Address.." aria-describedby="basic-addon2">
+          <span class="input-group-addon" id="basic-addon2"><i class="fa fa-envelope"></i></span>
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn rounded-0 btn-secondary" data-dismiss="modal">Close</button>
+    <button type="button" class="btn rounded-0 btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
