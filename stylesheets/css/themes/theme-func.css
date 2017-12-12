@@ -10,15 +10,15 @@
     color: #666666; }
 
 .navi-light {
-  background: black;
-  color: black; }
+  background: white;
+  color: #e6e6e6; }
   .navi-light .form-inline input {
-    background: black; }
+    background: gray; }
     .navi-light .form-inline input:focus {
-      background: black; }
+      background: #333333; }
   .navi-light .form-inline button {
-    background: black;
-    color: black; }
+    background: #b3b3b3;
+    color: white; }
 
 .navi-primary {
   background: #333333;
@@ -64,14 +64,14 @@
     color: #1a1a1a; }
 
 .card-bgc-light {
-  background: black; }
+  background: white; }
   .card-bgc-light .list-group-item {
-    background: black; }
+    background: white; }
   .card-bgc-light .card-header {
-    background: black;
-    color: black; }
+    background: #cccccc;
+    color: gray; }
   .card-bgc-light input, .card-bgc-light select, .card-bgc-light span {
-    color: black; }
+    color: gray; }
 
 .card-bgc-primary {
   background: #333333; }
@@ -107,7 +107,7 @@
   background: #333; }
 
 .buttons-light {
-  background: #000; }
+  background: #fff; }
 
 .buttons-primary {
   background: #333; }
@@ -117,5 +117,17 @@
 
 .buttons-important {
   background: red; }
+
+.msg-info {
+  background: #c9f298; }
+
+.msg-danger {
+  background: #d32335; }
+
+.msg-success {
+  background: #c4c085; }
+
+.msg-black {
+  background: #000; }
 
 /*# sourceMappingURL=theme-func.css.map */

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page</title>
+    <title>Wordpress Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/stylesheets/css/main.css">
@@ -32,8 +32,8 @@
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="pl-0 nav-link">Home</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/classes/" class="nav-link">Classes</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Level test</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Review</a></li>
-                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link">About Us</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/careers/" class="nav-link">Careers</a></li>
+                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>/index.php/aboutus/" class="nav-link">About Us</a></li>
                     <!-- <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link"><i class="fa fa-bars"></i></a></li> -->
                 </ul>
 
@@ -43,9 +43,8 @@
                         <button class="input-group-addon" id="basic-addon rounded-0 border-0"><i class="fa fa-search"></i></button>
                     </div>
                 </form>
-            </form>
+            </div>
         </div>
-      </div>
     </nav>
 
     

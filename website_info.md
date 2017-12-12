@@ -1,24 +1,32 @@
-##TASKS  
+## TODO LISTS
 
-MISC
-    [X] - REMOVE BORDER COMPLETELY
-    [X] - REMOVE BORDER RADIUS COMPLETELY
-    [X] - REMOVE BOX-SHADOW COMPLETELY
+### Pages
 
-
-MAIN: Make Themes
-    [ ] - FIX THEME
-
-COMPO:
-    [X] - FORGOT PASSWORD
-    [X] - RESERVATIONS (3 LINES) 
-    [X] - FREE CLASS LIST (3 LINES)
-    [X] - FIX ALIGN SEARCH BOX
-    [X] - FIX MENU BAR COLOR
-    [ ] - ADD MORE INFORMATION
+- [x] Home Page
 
 
-SASS:
-    [ ] - USE SASS RIGHT WAY
-    [ ] - USE CSS RIGHT WAY
-    [ ] - USE SMACSS RIGHT WAY
+- [x] Register Page
+- [x] Login Page
+- [x] Classes Page
+
+
+- [x] About us page
+
+- [x] Careers Page
+
+- [x] Faqs Page
+
+      ​
+
+### Themes
+
+- [x] Colors
+- [ ] Borders
+- [ ] Misc.
+
+
+
+### Sub Components
+
+- [x] Sidebar Sticky
+- [x] Forgot Password

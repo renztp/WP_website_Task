@@ -42,7 +42,7 @@
             </div>
             <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
                 <!-- <div class="card-header border-0 pb-2 pt-2 rounded-0 pl-3"></div> -->
-                <div class="card-header m-login rounded-0">Personal Todo-list</div>
+                <div class="card-header border-0 m-login rounded-0">Personal Todo-list</div>
                 <div class="list-group list-group-flush">
                     <div class="list-group-item">Review on Present Tenses <span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
                     <div class="list-group-item">Practice more on Grammar <span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
@@ -51,7 +51,11 @@
                     <div class="list-group-item text-center" style="cursor: pointer;"><i class="fa fa-plus"></i></div>
                 </div>
             </div>
-         </div>
+            <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
+                <div class="list-group list-group-flush about-links">
+                    <a class="list-group-item list-link" href="<?php echo home_url(); ?>/index.php/faqs/"><i class="fa fa-angle-right"></i> FAQS</a></div>
+                </div>
+        </div>
 
 
 
@@ -85,7 +89,7 @@
                             <div class="list-group-item p-0">
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <h6 class="p-3 m-0 bg-secondary">Exam</h6>
+                                        <h6 class="p-3 m-0 bg-light">Exam</h6>
                                     </div>
                                     <div class="col-md-9">
                                         <h6 class="p-3 m-0 text-center">Past, Future Tenses 2 <span class="text-secondary">With Teacher Yani</span></h6>
@@ -121,7 +125,7 @@
                             <div class="list-group-item p-0">
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <h6 class="p-3 m-0 bg-secondary">Exam</h6>
+                                        <h6 class="p-3 m-0 bg-light">Exam</h6>
                                     </div>
                                     <div class="col-md-9">
                                         <h6 class="p-3 m-0 text-center">Comparison of Quantity - showing no difference <span class="text-secondary">With Teacher Rica</span></h6>
@@ -157,7 +161,7 @@
                             <div class="list-group-item p-0">
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <h6 class="p-3 m-0 bg-secondary">Exam</h6>
+                                        <h6 class="p-3 m-0 bg-light">Exam</h6>
                                     </div>
                                     <div class="col-md-9">
                                         <h6 class="p-3 m-0 text-center">Grammar Practice <span class="text-secondary">With Teacher Rica</span></h6>

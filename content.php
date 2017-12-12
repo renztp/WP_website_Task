@@ -199,6 +199,7 @@
             </ul>
         </div>
     </div>
+
     <div class="col-md-4 pt-2 pb-4">
         <div class="card rounded-0">
             <img src="https://witheng.com/data/teacher/primary_photo_26053" alt="" class="rounded-0 card-img-top">
@@ -298,7 +299,6 @@
 </div>
 </div>
 <br>
-
 
 <!-- MODAL -->
 <div class="modal rounded-0 mt-5 fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

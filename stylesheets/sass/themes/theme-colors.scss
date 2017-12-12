@@ -1,3 +1,6 @@
-$colors: (dark: #333, light: #000, primary: #333, secondary: #888, important: red);
+@import '../partials/variables';
+$colors: (dark: $darkgray, light: $white, primary: $darkgray, secondary: $mud, important: red);
 $msg: (info: #c9f298, danger: #d32335, success: #c4c085, black: #000);
+$borderOn: 'true';
+$border-prop: (borderPoints: 1, type: 'solid', theColor: red  /* sm, md, lg (SIZES)*/);
 

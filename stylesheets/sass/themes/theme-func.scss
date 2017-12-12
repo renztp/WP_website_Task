@@ -1,8 +1,5 @@
 @import 'theme-colors';
 
-
-
-
 // for navbar
 @each $theList, $color in $colors {
     .navi-#{$theList} {
@@ -41,6 +38,10 @@
 }
 
 @each $buttons, $color in $colors {
-    .buttons-#{$buttons} { background: $color; }
+    .buttons-#{$buttons} { background: $color;}
+}
+
+@each $text, $color in $msg {
+    .msg-#{$text} { background: $color;}
 }
 
