@@ -1,27 +1,5 @@
 <?php get_header(); ?>
 
-<!-- <div class="container">
-    <div class="row">
-        <div class="col-md-3">
-            <div class="card card-bgc-light rounded-0 m-login mb-3">
-                <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> Login</div> 
-                <div class="card-body p-3 pt-2 rounded-0">
-                    <form>
-                      <div class="form-group">
-                        <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <input type="checkbox"><span> Forgot Password? or <a href="<?php echo home_url(); ?>/index.php/register/" class="text-light"><u>Register</u></a>.</span>
-                    <a href="<?php echo home_url(); ?>/index.php/login/" class="btn btn-light pr-3 pl-3 rounded-0 pull-right">Login</a></a>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-    </div>
- -->
     <br>
     <div class="container">
        <div class="row">
