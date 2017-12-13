@@ -1,39 +1,3 @@
-header {
-  background-color: #7D1128; }
-  header span {
-    font-family: sans-serif; }
-  header .col-md-6 a {
-    color: #ccc; }
-    header .col-md-6 a:hover {
-      color: #888; }
-
-nav {
-  font-family: Oxygen; }
-  nav a {
-    color: #fff; }
-  nav .theborder {
-    background: #333; }
-    nav .theborder:active {
-      background: #666; }
-  nav .input-group-addon {
-    border-radius: 0; }
-
-#carouselExampleIndicators {
-  height: 367px;
-  width: auto;
-  overflow: hidden; }
-
-.carousel-inner {
-  height: 367px;
-  width: auto;
-  overflow: hidden; }
-
-.login input, .login select, .login span {
-  color: #777; }
-
-.main {
-  background: #fff; }
-
 body {
   font-family: Roboto, sans-serif, verdana, serif;
   background: #edeff2;
@@ -45,6 +9,12 @@ p {
 nav {
   text-transform: uppercase;
   font-family: Oxygen; }
+  nav a {
+    color: #fff; }
+  nav input {
+    border-radius: 0; }
+  nav .input-group-addon {
+    border-radius: 0; }
   nav .navbar-brand {
     text-transform: capitalize; }
   nav span {
@@ -76,6 +46,12 @@ nav {
     cursor: pointer; }
   .m-login span {
     font-size: 0.750rem; }
+
+.main {
+  background: #fff; }
+
+.card-info ul li {
+  display: inline-block; }
 
 .about-links a {
   text-decoration: none;
@@ -127,7 +103,7 @@ nav a:hover {
   background: #333333;
   color: #2e2e2e; }
   .navi-dark .form-inline input {
-    background: #1a1a1a; }
+    background: #1f1f1f; }
     .navi-dark .form-inline input:focus {
       background: #0a0a0a; }
   .navi-dark .form-inline button {
@@ -138,7 +114,7 @@ nav a:hover {
   background: white;
   color: #e6e6e6; }
   .navi-light .form-inline input {
-    background: gray; }
+    background: #999999; }
     .navi-light .form-inline input:focus {
       background: #333333; }
   .navi-light .form-inline button {
@@ -146,21 +122,21 @@ nav a:hover {
     color: white; }
 
 .navi-primary {
-  background: #333333;
-  color: #2e2e2e; }
+  background: gray;
+  color: #737373; }
   .navi-primary .form-inline input {
-    background: #1a1a1a; }
+    background: #4d4d4d; }
     .navi-primary .form-inline input:focus {
-      background: #0a0a0a; }
+      background: #1a1a1a; }
   .navi-primary .form-inline button {
-    background: #242424;
-    color: #666666; }
+    background: #5a5a5a;
+    color: white; }
 
 .navi-secondary {
   background: #888888;
   color: #7a7a7a; }
   .navi-secondary .form-inline input {
-    background: #444444; }
+    background: #525252; }
     .navi-secondary .form-inline input:focus {
       background: #1b1b1b; }
   .navi-secondary .form-inline button {
@@ -171,7 +147,7 @@ nav a:hover {
   background: red;
   color: #e60000; }
   .navi-important .form-inline input {
-    background: maroon; }
+    background: #990000; }
     .navi-important .form-inline input:focus {
       background: #330000; }
   .navi-important .form-inline button {
@@ -179,6 +155,7 @@ nav a:hover {
     color: red; }
 
 .card-bgc-dark {
+  border: 0;
   background: #333333; }
   .card-bgc-dark .list-group-item {
     background: #333333; }
@@ -188,7 +165,11 @@ nav a:hover {
   .card-bgc-dark input, .card-bgc-dark select, .card-bgc-dark span {
     color: #1a1a1a; }
 
+.bgc-dark {
+  background-color: #333; }
+
 .card-bgc-light {
+  border: 0;
   background: white; }
   .card-bgc-light .list-group-item {
     background: white; }
@@ -198,17 +179,25 @@ nav a:hover {
   .card-bgc-light input, .card-bgc-light select, .card-bgc-light span {
     color: gray; }
 
+.bgc-light {
+  background-color: #fff; }
+
 .card-bgc-primary {
-  background: #333333; }
+  border: 0;
+  background: gray; }
   .card-bgc-primary .list-group-item {
-    background: #333333; }
+    background: gray; }
   .card-bgc-primary .card-header {
-    background: #292929;
-    color: #1a1a1a; }
+    background: #666666;
+    color: #404040; }
   .card-bgc-primary input, .card-bgc-primary select, .card-bgc-primary span {
-    color: #1a1a1a; }
+    color: #404040; }
+
+.bgc-primary {
+  background-color: #808080; }
 
 .card-bgc-secondary {
+  border: 0;
   background: #888888; }
   .card-bgc-secondary .list-group-item {
     background: #888888; }
@@ -218,7 +207,11 @@ nav a:hover {
   .card-bgc-secondary input, .card-bgc-secondary select, .card-bgc-secondary span {
     color: #444444; }
 
+.bgc-secondary {
+  background-color: #888; }
+
 .card-bgc-important {
+  border: 0;
   background: red; }
   .card-bgc-important .list-group-item {
     background: red; }
@@ -228,6 +221,9 @@ nav a:hover {
   .card-bgc-important input, .card-bgc-important select, .card-bgc-important span {
     color: maroon; }
 
+.bgc-important {
+  background-color: red; }
+
 .buttons-dark {
   background: #333; }
 
@@ -235,7 +231,7 @@ nav a:hover {
   background: #fff; }
 
 .buttons-primary {
-  background: #333; }
+  background: #808080; }
 
 .buttons-secondary {
   background: #888; }
@@ -243,16 +239,7 @@ nav a:hover {
 .buttons-important {
   background: red; }
 
-.msg-info {
-  background: #c9f298; }
-
-.msg-danger {
-  background: #d32335; }
-
-.msg-success {
-  background: #c4c085; }
-
-.msg-black {
-  background: #000; }
+.main {
+  border: 0; }
 
 /*# sourceMappingURL=main.css.map */

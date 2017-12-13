@@ -6,8 +6,17 @@
         font-size: 0.7rem;
         cursor: pointer;
     }
-
     span { font-size: 0.750rem; }
+}
+
+.main {
+    background: #fff;
+}
+
+.card-info {
+    ul li {
+        display: inline-block;
+    }
 }
 
 .about-links {
@@ -18,8 +27,6 @@
             background: #dbdde0;
         }
     }
-
-    
 }
 
 .m-remind {

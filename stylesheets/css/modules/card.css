@@ -10,6 +10,12 @@
   .m-login span {
     font-size: 0.750rem; }
 
+.main {
+  background: #fff; }
+
+.card-info ul li {
+  display: inline-block; }
+
 .about-links a {
   text-decoration: none;
   color: #333; }

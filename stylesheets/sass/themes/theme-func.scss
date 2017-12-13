@@ -7,7 +7,7 @@
         color: $color * .9;
         .form-inline {
             input {
-                background: $color * .5;
+                background: $color * .6;
                 &:focus {
                     background: $color * .2;
                 }
@@ -20,8 +20,24 @@
     }
 }
 
+@mixin checkBorder($var, $percent){
+    @if $borderOn {
+        @if $border-theme == 'material' {
+            box-shadow: 0px 2px 3px $var * $percent;
+        }
+        @else {
+            border: $border-level solid $var * $percent;
+        }
+    } 
+    @else {
+        border: 0;
+    }
+}
+
+// for cards and border
 @each $card, $color in $colors {
     .card-bgc-#{$card}{
+        @include checkBorder($color, .8);
         background: $color * 1;
         .list-group-item {
             background: $color * 1;
@@ -35,13 +51,16 @@
             color: $color * .5;
         }
     }
+
+    .bgc-#{$card} {
+        background-color: $color;
+    }
 }
 
 @each $buttons, $color in $colors {
     .buttons-#{$buttons} { background: $color;}
 }
 
-@each $text, $color in $msg {
-    .msg-#{$text} { background: $color;}
+.main {
+    @include checkBorder(map-get($colors, light), .8);
 }
-

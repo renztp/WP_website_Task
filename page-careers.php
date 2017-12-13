@@ -7,8 +7,8 @@
     <div class="row">
         <div class="col-md-12"><h3>Careers</h3></div>
         <div class="col-md-10">
-            <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
-                <div class="card-header border-0 pb-2 pt-2 rounded-0 pl-3">
+            <div class="card card-bgc-light rounded-0 m-login mb-3">
+                <div class="card-header pb-2 pt-2 rounded-0 pl-3">
                     <div class="row">
                         <div class="col-md-2"><b>Job Opening ID</b></div>
                         <div class="col-md-2"><b>Posting Title</b></div>
@@ -100,11 +100,11 @@
             </div>
         </div>
         <div class="col-md-2 p-0 rounded-0">
-            <div class="card m-ad_3 mb-3 border-0 rounded-0">
-                <div class="card-body border-0 rounded-0"></div>
+            <div class="card m-ad_3 mb-3 rounded-0">
+                <div class="card-body rounded-0"></div>
             </div>
-            <div class="card border-0 m-ad_1 mb-3 rounded-0">
-                <div class="card-body border-0 rounded-0">
+            <div class="card m-ad_1 mb-3 rounded-0">
+                <div class="card-body rounded-0">
                     <h5 class="p-3" style="line-height: 30px; background: rgba(3, 3, 3, .5);">
                         JOIN THE HARVARD SCHOOL UNIVERSITY!
                         <br><br>
@@ -114,8 +114,8 @@
                     </div>
                 </div>
 
-                <div class="card border-0 m-ad_2 mb-3 rounded-0">
-                    <div class="card-body border-0 rounded-0 pt-2">
+                <div class="card card-bgc-light m-ad_2 mb-3 rounded-0">
+                    <div class="card-body rounded-0 pt-2">
                         <h6>Infographic of the day.</h6>
                         <p>Infographic of the day tells us interesting and tropical tails and stories
                         in a fresh, visual way. </p>

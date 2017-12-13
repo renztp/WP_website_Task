@@ -1,6 +1,12 @@
 nav {
   text-transform: uppercase;
   font-family: Oxygen; }
+  nav a {
+    color: #fff; }
+  nav input {
+    border-radius: 0; }
+  nav .input-group-addon {
+    border-radius: 0; }
   nav .navbar-brand {
     text-transform: capitalize; }
   nav span {

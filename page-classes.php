@@ -3,9 +3,9 @@
 <!-- <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
-                <div class="card-header border-0 pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> Login</div> 
-                <div class="card-body border-0 p-3 pt-2 rounded-0">
+            <div class="card card-bgc-light rounded-0 m-login mb-3">
+                <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> Login</div> 
+                <div class="card-body p-3 pt-2 rounded-0">
                     <form>
                       <div class="form-group">
                         <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -26,23 +26,23 @@
     <div class="container">
        <div class="row">
            <div class="col-md-3">
-               <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
-                <!-- <div class="card-header border-0 pb-2 pt-2 rounded-0 pl-3"></div> -->
-                <div class="card-body border-0 p-3 pt-2 rounded-0">
+               <div class="card card-bgc-light rounded-0 m-login mb-3">
+                <!-- <div class="card-header pb-2 pt-2 rounded-0 pl-3"></div> -->
+                <div class="card-body p-3 pt-2 rounded-0">
                     <div class="row">
                         <div class="col-md-3">
                             <img src="https://www.livelingua.com/img/profilesTeachers/228/Young-jun-Jung-IMG_000323.jpg" class="rounded-circle" width="180%" alt="">
                         </div>
                         <div class="col-md-9">
                             <h5 class="pl-3">Heon Woo jung</h5>
-                            <button class="btn btn-secondary rounded-0 ml-3 text-center">View Profile</button>
+                            <a href=" <?php echo home_url(); ?>/index.php/profile/" class="btn btn-secondary rounded-0 ml-3 text-center">View Profile</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
-                <!-- <div class="card-header border-0 pb-2 pt-2 rounded-0 pl-3"></div> -->
-                <div class="card-header border-0 m-login rounded-0">Personal Todo-list</div>
+            <div class="card card-bgc-light rounded-0 m-login mb-3">
+                <!-- <div class="card-header pb-2 pt-2 rounded-0 pl-3"></div> -->
+                <div class="card-header m-login rounded-0">Personal Todo-list</div>
                 <div class="list-group list-group-flush">
                     <div class="list-group-item">Review on Present Tenses <span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
                     <div class="list-group-item">Practice more on Grammar <span class="pull-right"><i class="fa fa-check"></i> <i class="fa fa-close pl-2"></i></span></div>
@@ -51,7 +51,7 @@
                     <div class="list-group-item text-center" style="cursor: pointer;"><i class="fa fa-plus"></i></div>
                 </div>
             </div>
-            <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
+            <div class="card card-bgc-light rounded-0 m-login mb-3">
                 <div class="list-group list-group-flush about-links">
                     <a class="list-group-item list-link" href="<?php echo home_url(); ?>/index.php/faqs/"><i class="fa fa-angle-right"></i> FAQS</a></div>
                 </div>

@@ -9,8 +9,8 @@
 
             <div class="col-md-3" style="position: relative; width: 100%;">
                 <div style="position: sticky; top: 14px;">
-                    <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
-                        <div class="card-header border-0 m-login rounded-0 text-white"><b>About Us</b></div>
+                    <div class="card card-bgc-light rounded-0 m-login mb-3">
+                        <div class="card-header m-login rounded-0 text-white"><b>About Us</b></div>
                         <div class="list-group list-group-flush about-links">
                             <a class="list-group-item list-group-item-action list-link rounded-0" href="#who">Who we are</a>
                             <a class="list-group-item list-group-item-action list-link rounded-0" href="#mission">Our Mission</a>
@@ -22,7 +22,7 @@
                     </div>
                     
                     
-                    <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
+                    <div class="card card-bgc-light rounded-0 m-login mb-3">
                         <div class="list-group list-group-flush about-links">
                             <a class="list-group-item list-link rounded-0" href="<?php echo home_url(); ?>/index.php/faqs/"><i class="fa fa-angle-right"></i> FAQS</a>
                             <a class="list-group-item list-link rounded-0" href="<?php echo home_url(); ?>/index.php/careers/"><i class="fa fa-angle-right"></i> Careers</a>

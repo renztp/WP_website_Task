@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-3">
 
-            <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
+            <div class="card card-bgc-light rounded-0 m-login mb-3">
                 <div class="list-group list-group-flush about-links">
                     <a class="list-group-item list-link rounded-0" href="<?php echo home_url(); ?>/index.php/aboutus/"><i class="fa fa-angle-right"></i> Back to About Us</a>
                     <a class="list-group-item list-link rounded-0" href="<?php echo home_url(); ?>/index.php/faqs/"><i class="fa fa-angle-right"></i> FAQS</a>

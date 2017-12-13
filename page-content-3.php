@@ -1,5 +1,6 @@
+<?php get_header(); ?>
 
-
+     
 <br>
 <div class="container">
     <div class="row">
@@ -179,9 +180,9 @@
     </div>
     <div class="col-md-4 pt-2 pb-4">
         <div class="card rounded-0">
-            <img src="https://witheng.com/data/teacher/primary_photo_23656" alt="" class="rounded-0 card-img-top">
+            <img src="https://witheng.com/data/teacher/primary_photo_45612" alt="" class="rounded-0 card-img-top">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item pt-1 pb-1 text-center">Teacher Yani</i></li>
+                <li class="list-group-item pt-1 pb-1 text-center">Teacher Cammille</i></li>
                 <li class="list-group-item rounded-0">
                     <p>HelloStudents !! My name is Teacher So, I've taught English for 5 years.I handle begginer, intermediate and advance students. I am </p>
                     <a href="#" class="pull-right text-secondary">Read more..</a>
@@ -191,9 +192,9 @@
     </div>
     <div class="col-md-4 pt-2 pb-4">
         <div class="card rounded-0">
-            <img src="https://witheng.com/data/teacher/primary_photo_25289" alt="" class="rounded-0 card-img-top">
+            <img src="https://witheng.com/data/teacher/primary_photo_45730" alt="" class="rounded-0 card-img-top">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item pt-1 pb-1 text-center">Teacher Tannia</i></li>
+                <li class="list-group-item pt-1 pb-1 text-center">Teacher Chelly</i></li>
                 <li class="list-group-item">
                     <p>Hello everyone! I'm teaching Tannia and I love teaching students. I have also been experienced in the development of the </p>
                     <a href="#" class="pull-right text-secondary">Read more..</a>
@@ -204,9 +205,9 @@
 
     <div class="col-md-4 pt-2 pb-4">
         <div class="card rounded-0">
-            <img src="https://witheng.com/data/teacher/primary_photo_26053" alt="" class="rounded-0 card-img-top">
+            <img src="https://witheng.com/data/teacher/primary_photo_45610" alt="" class="rounded-0 card-img-top">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item pt-1 pb-1 text-center">Teacher Rica</i></li>
+                <li class="list-group-item pt-1 pb-1 text-center">Teacher Aliana</i></li>
                 <li class="list-group-item">
                     <p>Hello students, My name is Teacher Rica.I have been teaching English toKoreans for four years now.Learning English is fun </p>
                     <a href="#" class="pull-right text-secondary">Read more..</a>
@@ -216,9 +217,9 @@
     </div>
     <div class="col-md-4 pt-2 pb-4">
         <div class="card rounded-0">
-            <img src="https://witheng.com/data/teacher/primary_photo_25985" alt="" class="rounded-0 card-img-top">
+            <img src="https://witheng.com/data/teacher/primary_photo_45819" alt="" class="rounded-0 card-img-top">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item pt-1 pb-1 text-center">Teacher Gab</i></li>
+                <li class="list-group-item pt-1 pb-1 text-center">Teacher Laira</i></li>
                 <li class="list-group-item">
                     <p>Hello! My name is Gab. I really like teaching and sharing the knowledge that I have in English. It's a pleasure for me to teach students that really eager to learn in a fun and productive way.</p>
                     <a href="#" class="pull-right text-secondary">Read more..</a>
@@ -228,9 +229,9 @@
     </div>
     <div class="col-md-4 pt-2 pb-4">
         <div class="card rounded-0">
-            <img src="https://witheng.com/data/teacher/primary_photo_26002" alt="" class="rounded-0 card-img-top">
+            <img src="https://witheng.com/data/teacher/primary_photo_45820" alt="" class="rounded-0 card-img-top">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item pt-1 pb-1 text-center">Teacher Iyah</i></li>
+                <li class="list-group-item pt-1 pb-1 text-center">Teacher Aileen</i></li>
                 <li class="list-group-item">
                     <p>Hi thereI'm Teacher Iyah. I have been teaching English for 7 years nowand I can say thatteaching has always been my passion. </p>
                     <a href="#" class="pull-right text-secondary">Read more..</a>
@@ -240,9 +241,9 @@
     </div>
     <div class="col-md-4 pt-2 pb-4">
         <div class="card rounded-0">
-            <img src="https://witheng.com/data/teacher/primary_photo_27018" alt="" class="rounded-0 card-img-top">
+            <img src="https://witheng.com/data/teacher/primary_photo_45850" alt="" class="rounded-0 card-img-top">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item pt-1 pb-1 text-center">Teacher Maybelle</i></li>
+                <li class="list-group-item pt-1 pb-1 text-center">Teacher Laira</i></li>
                 <li class="list-group-item">
                     <p>Hey there! This is teacher Maybelle. I'm 25 years old and I have been teaching English for almost years now. I chose this field of work because I enjoy communicating with people.</p>
                     <a href="#" class="pull-right text-secondary">Read more..</a>
@@ -325,3 +326,5 @@
   </div>
 </div>
 
+
+<?php get_footer(); ?>
