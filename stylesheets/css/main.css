@@ -56,8 +56,6 @@ nav {
 .about-links a {
   text-decoration: none;
   color: #333; }
-  .about-links a:hover {
-    background: #dbdde0; }
 
 .m-remind {
   font-size: 0.7rem; }
@@ -101,7 +99,7 @@ nav a:hover {
 
 .navi-dark {
   background: #333333;
-  color: #2e2e2e; }
+  color: #757575; }
   .navi-dark .form-inline input {
     background: #1f1f1f; }
     .navi-dark .form-inline input:focus {
@@ -112,7 +110,7 @@ nav a:hover {
 
 .navi-light {
   background: white;
-  color: #e6e6e6; }
+  color: white; }
   .navi-light .form-inline input {
     background: #999999; }
     .navi-light .form-inline input:focus {
@@ -123,7 +121,7 @@ nav a:hover {
 
 .navi-primary {
   background: gray;
-  color: #737373; }
+  color: white; }
   .navi-primary .form-inline input {
     background: #4d4d4d; }
     .navi-primary .form-inline input:focus {
@@ -134,7 +132,7 @@ nav a:hover {
 
 .navi-secondary {
   background: #888888;
-  color: #7a7a7a; }
+  color: white; }
   .navi-secondary .form-inline input {
     background: #525252; }
     .navi-secondary .form-inline input:focus {
@@ -145,7 +143,7 @@ nav a:hover {
 
 .navi-important {
   background: red;
-  color: #e60000; }
+  color: red; }
   .navi-important .form-inline input {
     background: #990000; }
     .navi-important .form-inline input:focus {
@@ -159,6 +157,8 @@ nav a:hover {
   background: #333333; }
   .card-bgc-dark .list-group-item {
     background: #333333; }
+    .card-bgc-dark .list-group-item:hover {
+      background: #2e2e2e; }
   .card-bgc-dark .card-header {
     background: #292929;
     color: #1a1a1a; }
@@ -173,6 +173,8 @@ nav a:hover {
   background: white; }
   .card-bgc-light .list-group-item {
     background: white; }
+    .card-bgc-light .list-group-item:hover {
+      background: #e6e6e6; }
   .card-bgc-light .card-header {
     background: #cccccc;
     color: gray; }
@@ -187,6 +189,8 @@ nav a:hover {
   background: gray; }
   .card-bgc-primary .list-group-item {
     background: gray; }
+    .card-bgc-primary .list-group-item:hover {
+      background: #737373; }
   .card-bgc-primary .card-header {
     background: #666666;
     color: #404040; }
@@ -201,6 +205,8 @@ nav a:hover {
   background: #888888; }
   .card-bgc-secondary .list-group-item {
     background: #888888; }
+    .card-bgc-secondary .list-group-item:hover {
+      background: #7a7a7a; }
   .card-bgc-secondary .card-header {
     background: #6d6d6d;
     color: #444444; }
@@ -215,6 +221,8 @@ nav a:hover {
   background: red; }
   .card-bgc-important .list-group-item {
     background: red; }
+    .card-bgc-important .list-group-item:hover {
+      background: #e60000; }
   .card-bgc-important .card-header {
     background: #cc0000;
     color: maroon; }

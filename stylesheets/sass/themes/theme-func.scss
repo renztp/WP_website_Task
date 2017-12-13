@@ -4,7 +4,7 @@
 @each $theList, $color in $colors {
     .navi-#{$theList} {
         background: $color * 1;
-        color: $color * .9;
+        color: $color * 2.3;
         .form-inline {
             input {
                 background: $color * .6;
@@ -37,10 +37,15 @@
 // for cards and border
 @each $card, $color in $colors {
     .card-bgc-#{$card}{
+
         @include checkBorder($color, .8);
+
         background: $color * 1;
         .list-group-item {
             background: $color * 1;
+            &:hover {
+                background: $color * 0.9;
+            }
         }
         .card-header {
             background: $color * .8;
