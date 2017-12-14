@@ -1,4 +1,9 @@
-@import 'theme-colors';
+
+@import 'premade-themes/theme-default';
+// @import 'premade-themes/theme-dark';
+// @import 'premade-themes/theme-light';
+// @import 'premade-themes/theme-nature';
+
 
 // for navbar
 @each $theList, $color in $colors {
@@ -20,13 +25,14 @@
     }
 }
 
+
 @mixin checkBorder($var, $percent){
-    @if $borderOn {
-        @if $border-theme == 'material' {
+    @if map-get($border-opt, border-active) {
+        @if map-get($border-opt, border-theme) == 'material' {
             box-shadow: 0px 2px 3px $var * $percent;
         }
         @else {
-            border: $border-level solid $var * $percent;
+            border: map-get($border-opt, border-level) solid $var * $percent;
         }
     } 
     @else {
@@ -41,31 +47,100 @@
         @include checkBorder($color, .8);
 
         background: $color * 1;
-        .list-group-item {
+        .list-group-flush {
+            background: $color * .80;
+        }        
+
+
+        .butt-bg {
+            background: $color * .7;
+            color: $color * 1.3;
+        }
+
+        .list-g-compo {
             background: $color * 1;
             &:hover {
                 background: $color * 0.9;
             }
         }
+
+        .list-g-teacher {
+            background: $color * .88; 
+        } 
+
         .card-header {
             background: $color * .8;
-            color: $color * .5; 
+            color: $color * 1.3; 
         }
 
-        input, select, span {
+        select, span {
             color: $color * .5;
         }
-    }
 
+        input {
+            color: $color * 1.8;
+            background: $color * .97;
+            border: 1px solid $color * .95;
+            &:focus {
+                background: $color * .89;   
+                color: $color * 1.8;
+            }
+        }
+    }
+    
     .bgc-#{$card} {
         background-color: $color;
     }
 }
 
+
+.pagi-bg { 
+    background-color: map-get($colors, light) * 0.97; 
+    color: map-get($text-colors, paraText);
+    border: 1px solid map-get($colors, light) * 0.85;
+}
+
+
 @each $buttons, $color in $colors {
     .buttons-#{$buttons} { background: $color;}
 }
 
+body {
+    background: map-get($colors, light) * .88;
+}
+
 .main {
     @include checkBorder(map-get($colors, light), .8);
+    background: map-get($colors, light);
 }
+
+
+.navbar { 
+    a.nav-link {
+        mix-blend-mode: exclusion;
+        &:hover { color: map-get($text-colors, headerText) * 2.5; }
+    } 
+}
+
+h1, h2, h3, h4, h5, h6 { color: map-get($text-colors, headerText); }
+p, b { color: map-get($text-colors, paraText); }
+li { color: map-get($text-colors, paraText); }
+a {
+    color: map-get($text-colors, anchorText);
+    &:hover { color: map-get($text-colors, anchorText) * .5; }
+}
+
+span.card-msg { color: map-get($text-colors, paraText); }
+
+@mixin headPara($header, $para){
+    h3 {
+        color: map-get($text-colors, anchorText) * $header;
+    }
+
+    p {
+        color: map-get($text-colors, anchorText) * $para;
+    }
+}
+
+.carousel-inner { @include headPara(2.5, 2.3); }
+footer { @include headPara(1.8, 1); }

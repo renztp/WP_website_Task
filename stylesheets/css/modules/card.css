@@ -17,8 +17,10 @@
   display: inline-block; }
 
 .about-links a {
-  text-decoration: none;
-  color: #333; }
+  text-decoration: none; }
+
+.list-group-item, .list-g-compo, .list-group-teacher {
+  border-radius: 0; }
 
 .m-remind {
   font-size: 0.7rem; }

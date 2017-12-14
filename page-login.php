@@ -15,7 +15,7 @@
 
                     </div>                        
                     <span> <a href="#" class="text-secondary"><u>Forgot Password?</u></a> or <a href="<?php echo home_url(); ?>/index.php/register/" class="text-secondary"><u>Register</u></a>.</span><br><br>
-                    <a href="<?php echo home_url(); ?>" class="btn btn-secondary pr-3 pl-3 rounded-0 pull-right">Login</a></a>
+                    <a href="<?php echo home_url(); ?>" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Login</a></a>
                 </form>
             </div>
         </div>

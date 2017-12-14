@@ -35,7 +35,7 @@
                           </script>
                       </div>                        
                       <span class="pl-3"> Already Have an account? If so, Please <a href="<?php echo home_url(); ?>/index.php/login/" class="text-secondary"><u>Login</u></a>.</span><br><br>
-                        <a href="<?php echo home_url(); ?>/index.php/login/" class="btn btn-secondary pr-3 pl-3 rounded-0 pull-right">Register</a></a>
+                        <a href="<?php echo home_url(); ?>/index.php/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Register</a></a>
                     </form>
                 </div>
             </div>

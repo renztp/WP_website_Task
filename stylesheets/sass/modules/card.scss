@@ -22,8 +22,11 @@
 .about-links {
     a {
         text-decoration: none;
-        color: #333;
     }
+}
+
+.list-group-item, .list-g-compo, .list-group-teacher {
+    border-radius: 0;
 }
 
 .m-remind {

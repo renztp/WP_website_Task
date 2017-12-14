@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="list-group list-group-flush about-links">
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1420</b></div>
                             <div class="col-md-2"><b>English Teacher</b></div>
@@ -28,7 +28,7 @@
                             <div class="col-md-2"><b>Associate Degree</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1421</b></div>
                             <div class="col-md-2"><b>English Teacher</b></div>
@@ -38,7 +38,7 @@
                             <div class="col-md-2"><b>Associate Degree</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1422</b></div>
                             <div class="col-md-2"><b>English Teacher</b></div>
@@ -48,7 +48,7 @@
                             <div class="col-md-2"><b>Associate Degree</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Back-end Developer</b></div>
@@ -58,7 +58,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Network Administrator</b></div>
@@ -67,7 +67,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Front-end Developer</b></div>
@@ -77,7 +77,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Front-end Developer</b></div>
@@ -87,7 +87,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-link">
+                    <div class="list-group-item list-g-compo list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1425</b></div>
                             <div class="col-md-2"><b>Assistant</b></div>
@@ -119,7 +119,7 @@
                         <h6>Infographic of the day.</h6>
                         <p>Infographic of the day tells us interesting and tropical tails and stories
                         in a fresh, visual way. </p>
-                        <a href="#" class="pull-right text-secondary pt-0 mt-0">Read more...</a>
+                        <a href="#" class="pull-right  pt-0 mt-0">Read more...</a>
                     </div>
                 </div>
             </div>
