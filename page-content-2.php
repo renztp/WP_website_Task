@@ -5,7 +5,7 @@
     <div class="row">
         <!-- CARD LOGIN -->
         <div class="col-md-3 p-0">
-            <div class="card card-bgc-light rounded-0 m-login mb-3">
+            <div class="card card-bgc-secondary rounded-0 m-login mb-3">
                 <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> Login</div> 
                 <div class="card-body p-3 pt-2 rounded-0">
                     <form>
@@ -21,7 +21,7 @@
             </div>
         </div>
         <!-- CARD REMINDER -->
-        <div class="card card-bgc-light m-remind mb-3 rounded-0">
+        <div class="card card-bgc-secondary m-remind mb-3 rounded-0">
             <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-sticky-note-o"></i> Reminders</div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item list-g-compo ">Saturday Seminar <i class="pull-right">Dec - 9</i></li>
@@ -30,7 +30,7 @@
             </ul>
         </div>
         <!-- CARD RESERVATIONS -->
-        <div class="card card-bgc-light login m-remind mb-3 rounded-0">
+        <div class="card card-bgc-secondary login m-remind mb-3 rounded-0">
             <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-list"></i> Reservations</div>
             <ul class="list-group list-group-flush">
                 <!-- <li class="list-group-item list-g-compo "></li>
@@ -69,7 +69,7 @@
             </ul> 
         </div>
         <!-- CARD FREE CLASS LIST -->
-        <div class="card card-bgc-light m-remind rounded-0">
+        <div class="card card-bgc-secondary m-remind rounded-0">
             <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-list-alt"></i> Free Class List</div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item list-g-compo ">
@@ -178,24 +178,28 @@
         </p> 
     </div>
     <div class="col-md-4 pt-2 pb-4">
-        <div class="card card-bgc-light rounded-0">
+        <div class="card card-bgc-secondary rounded-0 bg-secondary">
             <img src="https://witheng.com/data/teacher/primary_photo_21305" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Sofia</span>
+                <p class="m-0">HelloStudents !! My name is Teacher So, I've taught English for 5 years.I handle begginer, intermediate and advance students. I am </p>
+            </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item list-g-teacher pt-1 pb-1 text-center">Teacher Sofia</i></li>
                 <li class="list-group-item list-g-teacher rounded-0">
-                    <p>HelloStudents !! My name is Teacher So, I've taught English for 5 years.I handle begginer, intermediate and advance students. I am </p>
                     <a href="#" class="pull-right ">Read more..</a>
                     </li>
             </ul>
         </div>
     </div>
     <div class="col-md-4 pt-2 pb-4">
-        <div class="card card-bgc-light rounded-0">
+        <div class="card card-bgc-secondary rounded-0">
             <img src="https://witheng.com/data/teacher/primary_photo_26816" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Sab</span>
+                <p class="m-0">Hello everyone! I'm teaching Tannia and I love teaching students. I have also been experienced in the development of the </p>
+            </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item list-g-teacher pt-1 pb-1 text-center">Teacher Sab</i></li>
                 <li class="list-group-item list-g-teacher">
-                    <p>Hello everyone! I'm teaching Tannia and I love teaching students. I have also been experienced in the development of the </p>
                     <a href="#" class="pull-right ">Read more..</a>
                     </li>
             </ul>
@@ -203,48 +207,56 @@
     </div>
 
     <div class="col-md-4 pt-2 pb-4">
-        <div class="card card-bgc-light rounded-0">
+        <div class="card card-bgc-secondary rounded-0">
             <img src="https://witheng.com/data/teacher/primary_photo_26554" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Ema</span>
+                <p class="m-0">Hello students, My name is Teacher Rica.I have been teaching English toKoreans for four years now.Learning English is fun </p>
+            </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item list-g-teacher pt-1 pb-1 text-center">Teacher Ema</i></li>
                 <li class="list-group-item list-g-teacher">
-                    <p>Hello students, My name is Teacher Rica.I have been teaching English toKoreans for four years now.Learning English is fun </p>
                     <a href="#" class="pull-right ">Read more..</a>
                     </li>
             </ul>
         </div>
     </div>
     <div class="col-md-4 pt-2 pb-4">
-        <div class="card card-bgc-light rounded-0">
+        <div class="card card-bgc-secondary rounded-0">
             <img src="https://witheng.com/data/teacher/primary_photo_27830" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Cassy</span>
+                <p class="m-0">Hello! My name is Gab. I really like teaching and sharing the knowledge that I have in English. It's a pleasure for me to teach students that really eager to learn in a fun and productive way.</p>
+            </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item list-g-teacher pt-1 pb-1 text-center">Teacher Cassy</i></li>
                 <li class="list-group-item list-g-teacher">
-                    <p>Hello! My name is Gab. I really like teaching and sharing the knowledge that I have in English. It's a pleasure for me to teach students that really eager to learn in a fun and productive way.</p>
                     <a href="#" class="pull-right ">Read more..</a>
                     </li>
             </ul>
         </div>
     </div>
     <div class="col-md-4 pt-2 pb-4">
-        <div class="card card-bgc-light rounded-0">
+        <div class="card card-bgc-secondary rounded-0">
             <img src="https://witheng.com/data/teacher/primary_photo_35071" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Nice</span>
+                <p class="m-0">Hi thereI'm Teacher Iyah. I have been teaching English for 7 years nowand I can say thatteaching has always been my passion. </p>
+            </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item list-g-teacher pt-1 pb-1 text-center">Teacher Nice</i></li>
                 <li class="list-group-item list-g-teacher">
-                    <p>Hi thereI'm Teacher Iyah. I have been teaching English for 7 years nowand I can say thatteaching has always been my passion. </p>
                     <a href="#" class="pull-right ">Read more..</a>
                     </li>
             </ul>
         </div>
     </div>
     <div class="col-md-4 pt-2 pb-4">
-        <div class="card card-bgc-light rounded-0">
+        <div class="card card-bgc-secondary rounded-0">
             <img src="https://witheng.com/data/teacher/primary_photo_44998" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Kriss</span>
+                <p class="m-0">Hey there! This is teacher Maybelle. I'm 25 years old and I have been teaching English for almost years now. I chose this field of work because I enjoy communicating with people.</p>
+            </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item list-g-teacher pt-1 pb-1 text-center">Teacher Kriss</i></li>
                 <li class="list-group-item list-g-teacher">
-                    <p>Hey there! This is teacher Maybelle. I'm 25 years old and I have been teaching English for almost years now. I chose this field of work because I enjoy communicating with people.</p>
                     <a href="#" class="pull-right ">Read more..</a>
                     </li>
             </ul>
@@ -289,7 +301,7 @@
             </div>
         </div>
 
-        <div class="card card-bgc-light m-ad_2 mb-3 rounded-0">
+        <div class="card card-bgc-secondary m-ad_2 mb-3 rounded-0">
             <div class="card-body rounded-0 pt-2">
                 <h6>Infographic of the day.</h6>
                 <p>Infographic of the day tells us interesting and tropical tails and stories

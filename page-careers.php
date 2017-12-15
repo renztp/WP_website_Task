@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-md-12"><h3>Careers</h3></div>
         <div class="col-md-10">
-            <div class="card card-bgc-light rounded-0 m-login mb-3">
+            <div class="card card-bgc-secondary rounded-0 m-login mb-3">
                 <div class="card-header pb-2 pt-2 rounded-0 pl-3">
                     <div class="row">
                         <div class="col-md-2"><b>Job Opening ID</b></div>
@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="list-group list-group-flush about-links">
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1420</b></div>
                             <div class="col-md-2"><b>English Teacher</b></div>
@@ -28,7 +28,7 @@
                             <div class="col-md-2"><b>Associate Degree</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1421</b></div>
                             <div class="col-md-2"><b>English Teacher</b></div>
@@ -38,7 +38,7 @@
                             <div class="col-md-2"><b>Associate Degree</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1422</b></div>
                             <div class="col-md-2"><b>English Teacher</b></div>
@@ -48,7 +48,7 @@
                             <div class="col-md-2"><b>Associate Degree</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Back-end Developer</b></div>
@@ -58,7 +58,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Network Administrator</b></div>
@@ -67,7 +67,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Front-end Developer</b></div>
@@ -77,7 +77,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1423</b></div>
                             <div class="col-md-2"><b>Front-end Developer</b></div>
@@ -87,7 +87,7 @@
                             <div class="col-md-2"><b>Associate Degree, Bachelor's Degree is a plus.</b></div>
                         </div>
                     </div>
-                    <div class="list-group-item list-g-compo list-link">
+                    <div class="list-group-item list-g-compo rounded-0 list-link">
                         <div class="row">
                             <div class="col-md-2"><b>1425</b></div>
                             <div class="col-md-2"><b>Assistant</b></div>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
 
-                <div class="card card-bgc-light m-ad_2 mb-3 rounded-0">
+                <div class="card card-bgc-secondary m-ad_2 mb-3 rounded-0">
                     <div class="card-body rounded-0 pt-2">
                         <h6>Infographic of the day.</h6>
                         <p>Infographic of the day tells us interesting and tropical tails and stories

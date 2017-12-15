@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
-            <div class="card card-bgc-light border-0 rounded-0 m-login mb-3">
+            <div class="card card-bgc-secondary border-0 rounded-0 m-login mb-3">
                 <div class="card-header border-0 pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> Login</div> 
                 <div class="card-body border-0 p-3 pt-2 rounded-0">
                     <form>

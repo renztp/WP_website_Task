@@ -52,6 +52,12 @@ nav {
 .card-info ul li {
   display: inline-block; }
 
+.prof-pic {
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 100%; }
+
 .about-links a {
   text-decoration: none; }
 
@@ -65,6 +71,40 @@ nav {
   .m-remind .btn {
     font-size: 0.8rem;
     cursor: pointer; }
+
+.images .img_one {
+  background-size: cover; }
+
+.images .img_two, .images .img_three, .images .img_four, .images .img_five {
+  background-size: cover;
+  height: 150px; }
+
+.images .img_one {
+  background-image: url("https://static1.squarespace.com/static/5769744f9de4bbb5295da829/t/578cbc5946c3c4caeed0a852/1469560699882/?format=750w");
+  height: 315px;
+  background-position: -180px; }
+.images .img_two {
+  background-image: url("https://ak6.picdn.net/shutterstock/videos/9553946/thumb/4.jpg"); }
+.images .img_three {
+  background-image: url("https://ak0.picdn.net/shutterstock/videos/7854460/thumb/1.jpg"); }
+.images .img_four {
+  background-image: url("http://ak1.picdn.net/shutterstock/videos/2726501/thumb/8.jpg"); }
+.images .img_five {
+  background-image: url("https://fthmb.tqn.com/AqyUd2ECYzm__HFknUiki1axWyg=/960x0/filters:no_upscale()/iStock-491632268-58499dab5f9b58dcccdf537a.jpg"); }
+
+.back-img {
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px; }
+  .back-img .fade-out {
+    width: 100%;
+    height: 300px;
+    background: rgba(3, 3, 3, 0.6); }
+    .back-img .fade-out h3 {
+      padding-top: 7.80rem;
+      color: #e2e2e2;
+      font-size: 2rem; }
 
 .m-teacher-cards .card:hover {
   background: #ddd;
@@ -95,52 +135,37 @@ nav {
   margin-bottom: 20px;
   height: 26.1vh; }
 
+.btn-grp .button-group .btn label::after {
+  background: #333; }
+.btn-grp .button-group .btn label::focus {
+  background: #333; }
+.btn-grp .button-group .btn label::before {
+  background: #fff; }
+
 nav a:hover {
   color: #ddd; }
 
-.navi-dark {
-  background: #333333;
-  color: #757575; }
-  .navi-dark .form-inline input {
-    background: #1f1f1f; }
-    .navi-dark .form-inline input:focus {
-      background: #0a0a0a; }
-  .navi-dark .form-inline button {
-    background: #242424;
-    color: #666666; }
-
-.navi-light {
-  background: white;
-  color: white; }
-  .navi-light .form-inline input {
-    background: #999999; }
-    .navi-light .form-inline input:focus {
-      background: #333333; }
-  .navi-light .form-inline button {
-    background: #b3b3b3;
-    color: white; }
-
 .navi-primary {
-  background: #444444;
-  color: #9c9c9c; }
+  background: #592f0d;
+  color: #cd6c1e; }
   .navi-primary .form-inline input {
-    background: #292929; }
+    background: #351c08; }
     .navi-primary .form-inline input:focus {
-      background: #0e0e0e; }
+      background: #120903; }
   .navi-primary .form-inline button {
-    background: #303030;
-    color: #888888; }
+    background: #3e2109;
+    color: #b25e1a; }
 
 .navi-secondary {
-  background: #666666;
-  color: #ebebeb; }
+  background: #ffe5d1;
+  color: white; }
   .navi-secondary .form-inline input {
-    background: #3d3d3d; }
+    background: #99897d; }
     .navi-secondary .form-inline input:focus {
-      background: #141414; }
+      background: #332e2a; }
   .navi-secondary .form-inline button {
-    background: #474747;
-    color: #cccccc; }
+    background: #b3a092;
+    color: white; }
 
 .navi-important {
   background: red;
@@ -153,125 +178,65 @@ nav a:hover {
     background: #b30000;
     color: red; }
 
-.card-bgc-dark {
-  border: 0;
-  background: #333333; }
-  .card-bgc-dark .list-group-flush {
-    background: #292929; }
-  .card-bgc-dark .butt-bg {
-    background: #242424;
-    color: #424242; }
-  .card-bgc-dark .list-g-compo {
-    background: #333333; }
-    .card-bgc-dark .list-g-compo:hover {
-      background: #2e2e2e; }
-  .card-bgc-dark .list-g-teacher {
-    background: #2d2d2d; }
-  .card-bgc-dark .card-header {
-    background: #292929;
-    color: #424242; }
-  .card-bgc-dark select, .card-bgc-dark span {
-    color: #1a1a1a; }
-  .card-bgc-dark input {
-    color: #5c5c5c;
-    background: #313131;
-    border: 1px solid #303030; }
-    .card-bgc-dark input:focus {
-      background: #2d2d2d;
-      color: #5c5c5c; }
-
-.bgc-dark {
-  background-color: #333; }
-
-.card-bgc-light {
-  border: 0;
-  background: white; }
-  .card-bgc-light .list-group-flush {
-    background: #cccccc; }
-  .card-bgc-light .butt-bg {
-    background: #b3b3b3;
-    color: white; }
-  .card-bgc-light .list-g-compo {
-    background: white; }
-    .card-bgc-light .list-g-compo:hover {
-      background: #e6e6e6; }
-  .card-bgc-light .list-g-teacher {
-    background: #e0e0e0; }
-  .card-bgc-light .card-header {
-    background: #cccccc;
-    color: white; }
-  .card-bgc-light select, .card-bgc-light span {
-    color: gray; }
-  .card-bgc-light input {
-    color: white;
-    background: #f7f7f7;
-    border: 1px solid #f2f2f2; }
-    .card-bgc-light input:focus {
-      background: #e3e3e3;
-      color: white; }
-
-.bgc-light {
-  background-color: #fff; }
-
 .card-bgc-primary {
   border: 0;
-  background: #444444; }
+  background: #592f0d; }
   .card-bgc-primary .list-group-flush {
-    background: #363636; }
+    background: #47260a; }
   .card-bgc-primary .butt-bg {
-    background: #303030;
-    color: #585858; }
+    background: #3e2109;
+    color: #743d11; }
   .card-bgc-primary .list-g-compo {
-    background: #444444; }
+    background: #592f0d; }
     .card-bgc-primary .list-g-compo:hover {
-      background: #3d3d3d; }
+      background: #502a0c; }
   .card-bgc-primary .list-g-teacher {
-    background: #3c3c3c; }
+    background: #4e290b; }
   .card-bgc-primary .card-header {
-    background: #363636;
-    color: #585858; }
+    background: #47260a;
+    color: #743d11; }
   .card-bgc-primary select, .card-bgc-primary span {
-    color: #222222; }
+    color: #2d1807; }
   .card-bgc-primary input {
-    color: #7a7a7a;
-    background: #424242;
-    border: 1px solid #414141; }
+    color: #a05517;
+    background: #562e0d;
+    border: 1px solid #552d0c; }
     .card-bgc-primary input:focus {
-      background: #3d3d3d;
-      color: #7a7a7a; }
+      background: #4f2a0c;
+      color: #a05517; }
 
 .bgc-primary {
-  background-color: #444; }
+  background-color: #592f0d; }
 
 .card-bgc-secondary {
   border: 0;
-  background: #666666; }
+  background: #ffe5d1; }
   .card-bgc-secondary .list-group-flush {
-    background: #525252; }
+    background: #ccb7a7; }
   .card-bgc-secondary .butt-bg {
-    background: #474747;
-    color: #858585; }
+    background: #b3a092;
+    color: white; }
   .card-bgc-secondary .list-g-compo {
-    background: #666666; }
+    background: #ffe5d1; }
     .card-bgc-secondary .list-g-compo:hover {
-      background: #5c5c5c; }
+      background: #e6cebc; }
   .card-bgc-secondary .list-g-teacher {
-    background: #5a5a5a; }
+    background: #e0cab8; }
   .card-bgc-secondary .card-header {
-    background: #525252;
-    color: #858585; }
+    background: #ccb7a7;
+    color: white; }
   .card-bgc-secondary select, .card-bgc-secondary span {
-    color: #333333; }
+    color: #807369; }
   .card-bgc-secondary input {
-    color: #b8b8b8;
-    background: #636363;
-    border: 1px solid #616161; }
+    color: white;
+    background: #f7decb;
+    border: 1px solid #f2dac7; }
     .card-bgc-secondary input:focus {
-      background: #5b5b5b;
-      color: #b8b8b8; }
+      background: #e3ccba;
+      color: white; }
 
 .bgc-secondary {
-  background-color: #666; }
+  background-color: #ffe5d1; }
 
 .card-bgc-important {
   border: 0;
@@ -304,31 +269,25 @@ nav a:hover {
   background-color: red; }
 
 .pagi-bg {
-  background-color: #f7f7f7;
+  background-color: #f7decb;
   color: #444;
-  border: 1px solid #d9d9d9; }
-
-.buttons-dark {
-  background: #333; }
-
-.buttons-light {
-  background: #fff; }
+  border: 1px solid #d9c3b2; }
 
 .buttons-primary {
-  background: #444; }
+  background: #592f0d; }
 
 .buttons-secondary {
-  background: #666; }
+  background: #ffe5d1; }
 
 .buttons-important {
   background: red; }
 
 body {
-  background: #e0e0e0; }
+  background: #e0cab8; }
 
 .main {
   border: 0;
-  background: #fff; }
+  background: #ffe5d1; }
 
 .navbar a.nav-link {
   mix-blend-mode: exclusion; }

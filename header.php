@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navi-dark">
+    <nav class="navbar navbar-expand-lg navi-primary">
         <div class="container pl-0 pr-0">
             <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/book-icon.svg" width="30" height="30" alt=""> <b style="mix-blend-mode: exclusion">SpeakIn</b></a>
             <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
                 <ul class="navbar-nav mx-auto ml-0" id="theNav" style="font-size: 0.8rem;">
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="pl-0 nav-link">Home</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/classes/" class="nav-link">Classes</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="nav-link">Level test</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/test/" class="nav-link">Level test</a></li>
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/careers/" class="nav-link">Careers</a></li>
                     <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>/index.php/aboutus/" class="nav-link">About Us</a></li>
                     <!-- <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link"><i class="fa fa-bars"></i></a></li> -->

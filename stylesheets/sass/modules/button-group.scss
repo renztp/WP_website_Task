@@ -1,0 +1,10 @@
+
+.btn-grp {
+    .button-group {
+        .btn {
+            label::after { background: #333; }
+            label::focus { background: #333; }
+            label::before { background: #fff; }
+        }
+    }
+}
