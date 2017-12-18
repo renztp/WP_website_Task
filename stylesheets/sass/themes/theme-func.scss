@@ -123,14 +123,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { color: map-get($text-colors, headerText); }
-p, b { color: map-get($text-colors, paraText); }
-li { color: map-get($text-colors, paraText); }
+p, b, li, span.card-msg { color: map-get($text-colors, paraText); }
+
 a {
     color: map-get($text-colors, anchorText);
     &:hover { color: map-get($text-colors, anchorText) * .5; }
 }
-
-span.card-msg { color: map-get($text-colors, paraText); }
 
 @mixin headPara($header, $para){
     h3 {

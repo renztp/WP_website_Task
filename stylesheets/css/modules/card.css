@@ -10,6 +10,21 @@
   .m-login span {
     font-size: 0.750rem; }
 
+.act .list-group-item {
+  pointer-events: none; }
+.act .img_1, .act .img_2, .act .img_3 {
+  height: 200px;
+  width: auto;
+  background-size: cover; }
+.act .img_1 {
+  background-position: -80px;
+  background-image: url("https://images6.alphacoders.com/462/462753.jpg"); }
+.act .img_2 {
+  background-position: -80px;
+  background-image: url("https://images8.alphacoders.com/462/thumb-1920-462748.jpg"); }
+.act .img_3 {
+  background-image: url("https://www.nknews.org/wp-content/uploads/2015/12/3548180138_9b397de99d_b_korean-high-school-675x368.jpg"); }
+
 .main {
   background: #fff; }
 

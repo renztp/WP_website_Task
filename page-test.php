@@ -29,34 +29,34 @@
                                   <br>
                                   <div class="row">
                                       <div class="col-md-5">
-                                          <label for="Option-1 mr-2"><input type="Radio" id="Option-1" name="option"> Option Value 1</label>
+                                          <label for="Option-1 mr-2"><input type="Radio" id="Option-1" name="option"> 14:00 </label>
                                       </div>
                                       <div class="col-md-7">
-                                          <label for="Option-2"><input id="Option-2" type="Radio" name="option"> Option Value 2</label>
+                                          <label for="Option-2"><input id="Option-2" type="Radio" name="option"> 2:30 pm</label>
                                       </div>
                                       <div class="col-md-5">
-                                          <label for="option-3"><input type="Radio" id="option-3" name="option"> Option Value 3</label>
+                                          <label for="option-3"><input type="Radio" id="option-3" name="option"> 3:00 pm </label>
                                       </div>
                                       <div class="col-md-7">
-                                          <label for="option-4"><input type="Radio" id="option-4" name="option"> Option Value 4</label>
+                                          <label for="option-4"><input type="Radio" id="option-4" name="option"> 3:30 pm </label>
                                       </div>
                                       <div class="col-md-5">
-                                          <label for="option-5"><input type="Radio" id="option-5" name="option"> Option Value 5</label>
+                                          <label for="option-5"><input type="Radio" id="option-5" name="option"> 4:00 pm </label>
                                       </div>
                                       <div class="col-md-7">
-                                          <label for="option-6"><input type="Radio" id="option-6" name="option"> Option Value 6</label>
+                                          <label for="option-6"><input type="Radio" id="option-6" name="option"> 4:30 pm </label>
                                       </div>
                                       <div class="col-md-5">
-                                          <label for="option-7"><input type="Radio" id="option-7" name="option"> Option Value 7</label>
+                                          <label for="option-7"><input type="Radio" id="option-7" name="option"> 5:00pm </label>
                                       </div>
                                       <div class="col-md-7">
-                                          <label for="option-8"><input type="Radio" id="option-8" name="option"> Option Value 8</label>
+                                          <label for="option-8"><input type="Radio" id="option-8" name="option"> 5:30 pm </label>
                                       </div>
                                       <div class="col-md-5">
-                                          <label for="option-9"><input type="Radio" id="option-9" name="option"> Option Value 9</label>
+                                          <label for="option-9"><input type="Radio" id="option-9" name="option"> 6:00 pm </label>
                                       </div>
                                       <div class="col-md-7">
-                                          <label for="option-10"><input type="Radio" id="option-10" name="option"> Option Value 10</label>
+                                          <label for="option-10"><input type="Radio" id="option-10" name="option"> 6:30 pm </label>
                                       </div>
                                   </div>
                                   <div class="row pt-3">

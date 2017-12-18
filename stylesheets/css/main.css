@@ -23,13 +23,22 @@ nav {
     nav .form-inline button {
       border: 0px; }
 
-.carousel-inner, .carousel-item {
+.front-caro .carousel-inner, .front-caro .carousel-item, .teacher_caro .carousel-inner, .teacher_caro .carousel-item {
   height: 367px;
   width: auto;
   overflow: hidden; }
 
-.carousel-item img {
+.front-caro .carousel-inner {
+  height: 367px; }
+.front-caro .carousel-item {
+  height: 367px; }
+.front-caro .carousel-item img {
   filter: contrast(40%); }
+
+.teacher_caro .carousel-inner {
+  height: 390px; }
+.teacher_caro .carousel-item {
+  height: 390px; }
 
 .carousel-caption p {
   font-size: 1rem; }
@@ -45,6 +54,21 @@ nav {
     cursor: pointer; }
   .m-login span {
     font-size: 0.750rem; }
+
+.act .list-group-item {
+  pointer-events: none; }
+.act .img_1, .act .img_2, .act .img_3 {
+  height: 200px;
+  width: auto;
+  background-size: cover; }
+.act .img_1 {
+  background-position: -80px;
+  background-image: url("https://images6.alphacoders.com/462/462753.jpg"); }
+.act .img_2 {
+  background-position: -80px;
+  background-image: url("https://images8.alphacoders.com/462/thumb-1920-462748.jpg"); }
+.act .img_3 {
+  background-image: url("https://www.nknews.org/wp-content/uploads/2015/12/3548180138_9b397de99d_b_korean-high-school-675x368.jpg"); }
 
 .main {
   background: #fff; }
@@ -179,7 +203,7 @@ nav a:hover {
     color: red; }
 
 .card-bgc-primary {
-  border: 0;
+  box-shadow: 0px 2px 3px #47260a;
   background: #592f0d; }
   .card-bgc-primary .list-group-flush {
     background: #47260a; }
@@ -209,7 +233,7 @@ nav a:hover {
   background-color: #592f0d; }
 
 .card-bgc-secondary {
-  border: 0;
+  box-shadow: 0px 2px 3px #ccb7a7;
   background: #ffe5d1; }
   .card-bgc-secondary .list-group-flush {
     background: #ccb7a7; }
@@ -239,7 +263,7 @@ nav a:hover {
   background-color: #ffe5d1; }
 
 .card-bgc-important {
-  border: 0;
+  box-shadow: 0px 2px 3px #cc0000;
   background: red; }
   .card-bgc-important .list-group-flush {
     background: #cc0000; }
@@ -286,7 +310,7 @@ body {
   background: #e0cab8; }
 
 .main {
-  border: 0;
+  box-shadow: 0px 2px 3px #ccb7a7;
   background: #ffe5d1; }
 
 .navbar a.nav-link {
@@ -297,19 +321,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #333; }
 
-p, b {
-  color: #444; }
-
-li {
+p, b, li, span.card-msg {
   color: #444; }
 
 a {
   color: #666; }
   a:hover {
     color: #333333; }
-
-span.card-msg {
-  color: #444; }
 
 .carousel-inner h3 {
   color: white; }
