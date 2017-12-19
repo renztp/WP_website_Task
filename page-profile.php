@@ -58,6 +58,9 @@
                         <div class="col-md-6">
                             <div class="col-md-12 img_3 img-thumbnail"></div>
                         </div>
+                        <div class="col-md-12 text-right pt-2">
+                            <span>Load more...</span>
+                        </div>
                     </div>
                 </div>
             </div>

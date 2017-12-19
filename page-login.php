@@ -22,6 +22,7 @@
             <div class="card card-bgc-secondary border-0 rounded-0 m-login mb-3 pt-5">
                 <div class="card-body border-0 p-3 pt-2 mt-3 p-5 rounded-0">
                     <div class="spaces" style="height: 3rem;"></div>
+                    <h3>Login Now</h3>
                     <form>
                           <div class="form-group">
                             <input type="email" class="form-control mb-3 rounded-0" id="exampleInputPassword1" placeholder="Email Address">

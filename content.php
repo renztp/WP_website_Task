@@ -6,7 +6,7 @@
         <!-- CARD LOGIN -->
         <div class="col-md-3 p-0">
             <div class="card card-bgc-secondary rounded-0 m-login mb-3">
-                <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> <span>Login</span></div> 
+                <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> <span>Login</span></div>
                 <div class="card-body p-3 pt-2 rounded-0">
                     <form>
                       <div class="form-group">
@@ -67,7 +67,7 @@
                     </div>
                 </li>
                 <li class="list-group-item list-g-compo rounded-0 more" style="cursor: pointer;"><span>You have 10+ more reservations</span></li>
-            </ul> 
+            </ul>
         </div>
         <!-- CARD FREE CLASS LIST -->
         <div class="card card-bgc-secondary m-remind rounded-0">
@@ -122,7 +122,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="https://www.teachaway.com/sites/default/files/styles/threshold-768/public/teach-in-korea-01.jpg?itok=24OeQMF4" alt="Third slide">          
+                        <img class="d-block w-100" src="https://www.teachaway.com/sites/default/files/styles/threshold-768/public/teach-in-korea-01.jpg?itok=24OeQMF4" alt="Third slide">
                         <div class="carousel-caption d-none d-md-block">
                         <h3>Knowledge is our #1 Priority</h3>
                         <p>English is a gateway to communicate outside and other people. We can express
@@ -171,12 +171,12 @@
         <p class="text-justify">Customize your learning. Enjoy tailor-made lessons delivered by some of the best online Korean tutors in the world. Online language training gives you the support & motivation you need to succeed with a touch.</p>
     </div>
 </div>
-<div class="row main ml-0 mr-0 mt-3 m-teacher-cards teacher_caro"> 
+<div class="row main ml-0 mr-0 mt-3 m-teacher-cards teacher_caro">
     <div class="col-md-12 pt-3">
         <h5>Instructor Introduction</h5>
         <p class="text-justify">A native speaker is not a good student, but a well-trained instructor.
             In Guttok Video English, we are recruiting talented people and conducting classes that satisfy all students after the instructor training.
-        </p> 
+        </p>
     </div>
     <!--
     <div class="col-md-4 pt-2 pb-4">
@@ -287,7 +287,7 @@
  -->
 
 
-     
+
 
  <div id="carouselExampleControls" class="carousel slide  pl-3 pr-3 pb-3 pt-2" data-ride="carousel">
   <div class="carousel-inner">
@@ -299,7 +299,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="5"  style="bottom: -58px;"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="6"  style="bottom: -58px;"></li>
     </ol>
-    
+
     <div class="carousel-item active pb-4">
         <div class="row">
          <div class="col-md-4 pt-2 pb-4">
@@ -330,7 +330,7 @@
                 </ul>
             </div>
         </div>
-        
+
         <div class="col-md-4 pt-2 pb-4">
             <div class="card card-bgc-secondary rounded-0 card-teacher">
                 <img src="https://witheng.com/data/teacher/primary_photo_26053" alt="" class="rounded-0 card-img-top">
@@ -344,12 +344,12 @@
                     </li>
                 </ul>
             </div>
-        </div>                                      
+        </div>
     </div>
 </div>
 <div class="carousel-item">
     <div class="row">
-    
+
         <div class="col-md-4 pt-2 pb-4">
             <div class="card card-bgc-secondary card-bgc-secondary rounded-0 card-teacher">
                 <img src="https://witheng.com/data/teacher/primary_photo_25985" alt="" class="rounded-0 card-img-top">
@@ -424,7 +424,7 @@
                 </ul>
             </div>
         </div>
-        
+
         <div class="col-md-4 pt-2 pb-4">
             <div class="card card-bgc-secondary rounded-0">
                 <img src="https://witheng.com/data/teacher/primary_photo_26554" alt="" class="rounded-0 card-img-top">
@@ -571,7 +571,7 @@
                 <div class="card-body list-g-teacher p-3">
                    <span class="text-center">Teacher Laira</span>
                    <p class="m-0">Hey there! This is teacher Maybelle. I'm 25 years old and I have been teaching English for almost years now. I chose this field of work because I enjoy communicating with people.</p>
-               </div> 
+               </div>
                <ul class="list-group list-group-flush">
                 <li class="list-group-item list-g-teacher">
                     <a href="#" class="pull-right">Read more..</a>
@@ -630,7 +630,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content rounded-0">
       <div class="modal-body pt-3 pb-3 pl-2 pr-2 text-center">
-        
+
         <img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/locked.svg" alt="" style="width: 15%; text-center" class="pt-5 pb-4">
         <h4>Forgot your password?</h4>
         <p class="lead pb-3 ">Enter your email address<br>so we can help you
@@ -647,4 +647,3 @@
     </div>
   </div>
 </div>
-

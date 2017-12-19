@@ -77,10 +77,10 @@ nav {
   display: inline-block; }
 
 .prof-pic {
-  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
-  background-size: cover;
   height: 300px;
-  width: 100%; }
+  width: 100%;
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
+  background-size: cover; }
 
 .about-links a {
   text-decoration: none; }
@@ -117,10 +117,10 @@ nav {
   background-image: url("https://fthmb.tqn.com/AqyUd2ECYzm__HFknUiki1axWyg=/960x0/filters:no_upscale()/iStock-491632268-58499dab5f9b58dcccdf537a.jpg"); }
 
 .back-img {
-  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
-  background-size: cover;
   width: 100%;
-  height: 300px; }
+  height: 300px;
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
+  background-size: cover; }
   .back-img .fade-out {
     width: 100%;
     height: 300px;
@@ -142,22 +142,22 @@ nav {
   font-size: 0.8rem; }
 
 .m-ad_1 {
+  height: 62.8vh;
+  margin-bottom: 20px;
   background-image: url(http://static.wirtualnemedia.pl/media/top/evan-spot-biblioteka655.jpg);
   background-size: cover;
   color: #fff;
-  background-position: -200px;
-  margin-bottom: 20px;
-  height: 62.8vh; }
+  background-position: -200px; }
 
 .m-ad_2 {
-  margin-bottom: 20px;
-  height: 24.2vh; }
+  height: 24.2vh;
+  margin-bottom: 20px; }
 
 .m-ad_3 {
-  background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
-  background-size: 100%;
   margin-bottom: 20px;
-  height: 26.1vh; }
+  height: 26.1vh;
+  background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
+  background-size: 100%; }
 
 .btn-grp .button-group .btn label::after {
   background: #333; }
@@ -207,6 +207,10 @@ nav a:hover {
   background: #592f0d; }
   .card-bgc-primary .list-group-flush {
     background: #47260a; }
+  .card-bgc-primary .list-g-teacher {
+    background: #4e290b; }
+  .card-bgc-primary .bgc-primary {
+    background-color: #592f0d; }
   .card-bgc-primary .butt-bg {
     background: #3e2109;
     color: #743d11; }
@@ -214,8 +218,6 @@ nav a:hover {
     background: #592f0d; }
     .card-bgc-primary .list-g-compo:hover {
       background: #502a0c; }
-  .card-bgc-primary .list-g-teacher {
-    background: #4e290b; }
   .card-bgc-primary .card-header {
     background: #47260a;
     color: #743d11; }
@@ -229,14 +231,15 @@ nav a:hover {
       background: #4f2a0c;
       color: #a05517; }
 
-.bgc-primary {
-  background-color: #592f0d; }
-
 .card-bgc-secondary {
   box-shadow: 0px 2px 3px #ccb7a7;
   background: #ffe5d1; }
   .card-bgc-secondary .list-group-flush {
     background: #ccb7a7; }
+  .card-bgc-secondary .list-g-teacher {
+    background: #e0cab8; }
+  .card-bgc-secondary .bgc-secondary {
+    background-color: #ffe5d1; }
   .card-bgc-secondary .butt-bg {
     background: #b3a092;
     color: white; }
@@ -244,8 +247,6 @@ nav a:hover {
     background: #ffe5d1; }
     .card-bgc-secondary .list-g-compo:hover {
       background: #e6cebc; }
-  .card-bgc-secondary .list-g-teacher {
-    background: #e0cab8; }
   .card-bgc-secondary .card-header {
     background: #ccb7a7;
     color: white; }
@@ -259,14 +260,15 @@ nav a:hover {
       background: #e3ccba;
       color: white; }
 
-.bgc-secondary {
-  background-color: #ffe5d1; }
-
 .card-bgc-important {
   box-shadow: 0px 2px 3px #cc0000;
   background: red; }
   .card-bgc-important .list-group-flush {
     background: #cc0000; }
+  .card-bgc-important .list-g-teacher {
+    background: #e00000; }
+  .card-bgc-important .bgc-important {
+    background-color: red; }
   .card-bgc-important .butt-bg {
     background: #b30000;
     color: red; }
@@ -274,8 +276,6 @@ nav a:hover {
     background: red; }
     .card-bgc-important .list-g-compo:hover {
       background: #e60000; }
-  .card-bgc-important .list-g-teacher {
-    background: #e00000; }
   .card-bgc-important .card-header {
     background: #cc0000;
     color: red; }
@@ -288,9 +288,6 @@ nav a:hover {
     .card-bgc-important input:focus {
       background: #e30000;
       color: red; }
-
-.bgc-important {
-  background-color: red; }
 
 .pagi-bg {
   background-color: #f7decb;

@@ -32,10 +32,10 @@
   display: inline-block; }
 
 .prof-pic {
-  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
-  background-size: cover;
   height: 300px;
-  width: 100%; }
+  width: 100%;
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
+  background-size: cover; }
 
 .about-links a {
   text-decoration: none; }
@@ -72,10 +72,10 @@
   background-image: url("https://fthmb.tqn.com/AqyUd2ECYzm__HFknUiki1axWyg=/960x0/filters:no_upscale()/iStock-491632268-58499dab5f9b58dcccdf537a.jpg"); }
 
 .back-img {
-  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
-  background-size: cover;
   width: 100%;
-  height: 300px; }
+  height: 300px;
+  background-image: url("https://ak5.picdn.net/shutterstock/videos/23640925/thumb/1.jpg");
+  background-size: cover; }
   .back-img .fade-out {
     width: 100%;
     height: 300px;
@@ -97,21 +97,21 @@
   font-size: 0.8rem; }
 
 .m-ad_1 {
+  height: 62.8vh;
+  margin-bottom: 20px;
   background-image: url(http://static.wirtualnemedia.pl/media/top/evan-spot-biblioteka655.jpg);
   background-size: cover;
   color: #fff;
-  background-position: -200px;
-  margin-bottom: 20px;
-  height: 62.8vh; }
+  background-position: -200px; }
 
 .m-ad_2 {
-  margin-bottom: 20px;
-  height: 24.2vh; }
+  height: 24.2vh;
+  margin-bottom: 20px; }
 
 .m-ad_3 {
-  background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
-  background-size: 100%;
   margin-bottom: 20px;
-  height: 26.1vh; }
+  height: 26.1vh;
+  background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
+  background-size: 100%; }
 
 /*# sourceMappingURL=card.css.map */

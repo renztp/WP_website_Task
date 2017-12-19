@@ -2,24 +2,18 @@ nav {
     text-transform: uppercase;
     font-family: Oxygen;
     
-    a {
-        color: #fff;
-    }
+    a { color: #fff; }
 
-    input {
-        border-radius: 0;
-    }
+    input { border-radius: 0; }
 
-    .input-group-addon {
-        border-radius: 0;
-    }
+    .input-group-addon { border-radius: 0; }
 
     .navbar-brand { text-transform: capitalize; }
+    
     span { font-size:10px; }
+
     .form-inline {
         border: 0px;
-        button {
-            border: 0px;
-        }
+        button { border: 0px; }
     }
 }

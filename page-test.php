@@ -3,8 +3,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md"></div>
-        <div class="col-md-5 p-4">
+        <div class="col-md-3"></div>
+        <div class="col-md-7 p-4">
 
             <div class="card card-bgc-secondary rounded-0">
                 <div class="card-header">Level-Test Form</div>
@@ -74,7 +74,7 @@
             </div>
 
         </div>
-        <div class="col-md"></div>
+        <div class="col-md-2"></div>
     </div> 
 </div> 
 
