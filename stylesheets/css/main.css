@@ -192,7 +192,7 @@ nav a:hover {
     color: red; }
 
 .card-bgc-primary {
-  box-shadow: 0px 2px 3px #47260a;
+  border: 0;
   background: #592f0d; }
   .card-bgc-primary .list-group-flush {
     background: #47260a; }
@@ -221,7 +221,7 @@ nav a:hover {
       color: #a05517; }
 
 .card-bgc-secondary {
-  box-shadow: 0px 2px 3px #ccb7a7;
+  border: 0;
   background: #ffe5d1; }
   .card-bgc-secondary .list-group-flush {
     background: #ccb7a7; }
@@ -250,7 +250,7 @@ nav a:hover {
       color: white; }
 
 .card-bgc-important {
-  box-shadow: 0px 2px 3px #cc0000;
+  border: 0;
   background: red; }
   .card-bgc-important .list-group-flush {
     background: #cc0000; }
@@ -296,7 +296,7 @@ body {
   background: #e0cab8; }
 
 .main {
-  box-shadow: 0px 2px 3px #ccb7a7;
+  border: 0;
   background: #ffe5d1; }
 
 .navbar a.nav-link {

@@ -4,7 +4,7 @@
        <div class="row pt-5 pb-5">
            <div class="col-md-12 text-secondary text-center">
                <h3>About Us</h3>
-               <p style="width: 50%; margin: 0 auto;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem minus reprehenderit, facere inventore, voluptates deleniti aperiam consequatur voluptatem, obcaecati quod illo aspernatur maxime aliquid. Odio ut dolorem quaerat facilis impedit!</p>
+               <p style="width: 50%; margin: 0 auto;">We provide the world’s leading range of qualifications for learners and teachers of English. Our expertise, gathered over 100 years of language learning and assessment, has led us to working with educational institutions and local.</p>
            </div>
        </div>
    </div> 
