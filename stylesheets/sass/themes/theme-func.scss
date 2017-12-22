@@ -1,13 +1,16 @@
-// @import 'premade-themes/theme-default';
+@import 'premade-themes/theme-default';
 // @import 'premade-themes/theme-dark';
 // @import 'premade-themes/theme-light';
-@import 'premade-themes/theme-nature';
+// @import 'premade-themes/theme-nature';
 
 
 @mixin checkBorder($var, $percent){
     @if map-get($border-opt, border-active) {
         @if map-get($border-opt, border-theme) == 'material' {
             box-shadow: 0px 2px 3px $var * $percent;
+        }
+        @if map-get($border-opt, border-theme) == 'minimal' {
+            border: 1px solid $var * $percent;
         }
         @else { border: map-get($border-opt, border-level) solid $var * $percent; }
     } 
@@ -29,6 +32,9 @@
                 color: $color * 2;
             }
         }
+    }
+    b {
+        mix-blend-mode: exclusion;
     }
 }
 
@@ -109,3 +115,6 @@ a {
 
 .carousel-inner { @include headPara(2.5, 2.3); }
 footer { @include headPara(1.8, 1); }
+
+
+

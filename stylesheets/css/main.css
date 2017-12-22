@@ -11,40 +11,6 @@ body {
 p {
   font-size: 0.850rem; }
 
-nav {
-  text-transform: uppercase;
-  font-family: Oxygen; }
-  nav a {
-    color: #fff; }
-  nav input {
-    border-radius: 0; }
-  nav .input-group-addon {
-    border-radius: 0; }
-  nav .navbar-brand {
-    text-transform: capitalize; }
-  nav span {
-    font-size: 10px; }
-  nav .form-inline {
-    border: 0px; }
-    nav .form-inline button {
-      border: 0px; }
-
-.front-caro .carousel-inner, .front-caro .carousel-item, .teacher_caro .carousel-inner, .teacher_caro .carousel-item {
-  height: 370px;
-  width: auto;
-  overflow: hidden; }
-
-.front-caro .carousel-item img {
-  filter: contrast(40%); }
-
-.teacher_caro .carousel-inner {
-  height: 370px; }
-.teacher_caro .carousel-item {
-  height: 370px; }
-
-.carousel-caption p {
-  font-size: 1rem; }
-
 .m-login {
   font-size: 0.8rem; }
   .m-login .card-header {
@@ -161,30 +127,70 @@ nav {
   background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
   background-size: 100%; }
 
+nav {
+  text-transform: uppercase;
+  font-family: Oxygen; }
+  nav a {
+    color: #fff; }
+  nav input {
+    border-radius: 0; }
+  nav .input-group-addon {
+    border-radius: 0; }
+  nav .navbar-brand {
+    text-transform: capitalize; }
+  nav span {
+    font-size: 10px; }
+  nav .form-inline {
+    border: 0px; }
+    nav .form-inline button {
+      border: 0px; }
+
+.front-caro .carousel-inner, .front-caro .carousel-item, .teacher_caro .carousel-inner, .teacher_caro .carousel-item {
+  height: 370px;
+  width: auto;
+  overflow: hidden; }
+
+.front-caro .carousel-item img {
+  filter: contrast(40%); }
+
+.teacher_caro .carousel-inner {
+  height: 370px; }
+.teacher_caro .carousel-item {
+  height: 370px; }
+
+.carousel-caption p {
+  font-size: 1rem; }
+
 nav a:hover {
   color: #ddd; }
 
 .navi-primary {
-  background: #592f0d;
-  color: #cd6c1e; }
+  background: #333333;
+  color: #757575; }
   .navi-primary .form-inline input {
-    background: #351c08; }
+    background: #1f1f1f; }
     .navi-primary .form-inline input:focus {
-      background: #120903; }
+      background: #0a0a0a; }
   .navi-primary .form-inline button {
-    background: #3e2109;
-    color: #b25e1a; }
+    background: #242424;
+    color: #666666; }
+
+b {
+  mix-blend-mode: exclusion; }
 
 .navi-secondary {
-  background: #ffe5d1;
+  background: white;
   color: white; }
   .navi-secondary .form-inline input {
-    background: #99897d; }
+    background: #999999; }
     .navi-secondary .form-inline input:focus {
-      background: #332e2a; }
+      background: #333333; }
   .navi-secondary .form-inline button {
-    background: #b3a092;
+    background: #b3b3b3;
     color: white; }
+
+b {
+  mix-blend-mode: exclusion; }
 
 .navi-important {
   background: red;
@@ -197,62 +203,65 @@ nav a:hover {
     background: #b30000;
     color: red; }
 
+b {
+  mix-blend-mode: exclusion; }
+
 .card-bgc-primary {
   border: 0;
-  background: #592f0d; }
+  background: #333333; }
   .card-bgc-primary .list-group-flush {
-    background: #47260a; }
+    background: #292929; }
   .card-bgc-primary .list-g-teacher {
-    background: #4e290b; }
+    background: #2d2d2d; }
   .card-bgc-primary .bgc-primary {
-    background-color: #592f0d; }
+    background-color: #333; }
   .card-bgc-primary .butt-bg {
-    background: #3e2109;
-    color: #743d11; }
+    background: #242424;
+    color: #424242; }
   .card-bgc-primary .list-g-compo {
-    background: #592f0d; }
+    background: #333333; }
     .card-bgc-primary .list-g-compo:hover {
-      background: #502a0c; }
+      background: #2e2e2e; }
   .card-bgc-primary .card-header {
-    background: #47260a;
-    color: #743d11; }
+    background: #292929;
+    color: #424242; }
   .card-bgc-primary select, .card-bgc-primary span {
-    color: #2d1807; }
+    color: #1a1a1a; }
   .card-bgc-primary input {
-    border: 1px solid #552d0c;
-    color: #a05517;
-    background: #562e0d; }
+    border: 1px solid #303030;
+    color: #5c5c5c;
+    background: #313131; }
     .card-bgc-primary input:focus {
-      background: #4f2a0c;
-      color: #a05517; }
+      background: #2d2d2d;
+      color: #5c5c5c; }
 
 .card-bgc-secondary {
   border: 0;
-  background: #ffe5d1; }
+  background: white; }
   .card-bgc-secondary .list-group-flush {
-    background: #ccb7a7; }
+    background: #cccccc; }
   .card-bgc-secondary .list-g-teacher {
-    background: #e0cab8; }
+    background: #e0e0e0; }
   .card-bgc-secondary .bgc-secondary {
-    background-color: #ffe5d1; }
+    background-color: #fff; }
   .card-bgc-secondary .butt-bg {
-    background: #b3a092;
+    background: #b3b3b3;
     color: white; }
   .card-bgc-secondary .list-g-compo {
-    background: #ffe5d1; }
+    background: white; }
     .card-bgc-secondary .list-g-compo:hover {
-      background: #e6cebc; }
+      background: #e6e6e6; }
   .card-bgc-secondary .card-header {
-    background: #ccb7a7;
+    background: #cccccc;
     color: white; }
   .card-bgc-secondary select, .card-bgc-secondary span {
-    color: #807369; }
+    color: gray; }
   .card-bgc-secondary input {
-    border: 1px solid #f2dac7;
+    border: 1px solid #f2f2f2;
     color: white;
-    background: #f7decb; }
+    background: #f7f7f7; }
     .card-bgc-secondary input:focus {
-      background: #e3ccba;
+      background: #e3e3e3;
       color: white; }
 
 .card-bgc-important {
@@ -285,25 +294,25 @@ nav a:hover {
       color: red; }
 
 .pagi-bg {
-  border: 1px solid #d9c3b2;
-  background-color: #f7decb;
+  border: 1px solid #d9d9d9;
+  background-color: #f7f7f7;
   color: #444; }
 
 .buttons-primary {
-  background: #592f0d; }
+  background: #333; }
 
 .buttons-secondary {
-  background: #ffe5d1; }
+  background: #fff; }
 
 .buttons-important {
   background: red; }
 
 body {
-  background: #e0cab8; }
+  background: #e0e0e0; }
 
 .main {
   border: 0;
-  background: #ffe5d1; }
+  background: #fff; }
 
 .navbar a.nav-link {
   mix-blend-mode: exclusion; }

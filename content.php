@@ -287,7 +287,309 @@
 
 
 
+ <!-- <div id="carouselExampleControls" class="carousel slide  pl-3 pr-3 pb-3 pt-2" data-ride="carousel">
+  <div class="carousel-inner">
+    <ol class="carousel-indicators mb-5">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"  style="bottom: -58px;"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"  style="bottom: -58px;"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"  style="bottom: -58px;"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"  style="bottom: -58px;"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"  style="bottom: -58px;"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"  style="bottom: -58px;"></li>
+    </ol>
 
+    <div class="carousel-item active pb-4">
+        <div class="row">
+         <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0 crd-teacher">
+                <img src="https://witheng.com/data/teacher/primary_photo_23656" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Yani</span>
+                    <p class="m-0">HelloStudents !! My name is Teacher So, I've taught English for 5 years.I handle begginer, intermediate and advance students. I am </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher list-g-teacher rounded-0">
+                        <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0">
+                <img src="https://witheng.com/data/teacher/primary_photo_25289" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Tannia</span>
+                    <p class="m-0">Hello everyone! I'm Teacher Tannia and I love teaching students. I have also been experienced in the development of the </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0 card-teacher">
+                <img src="https://witheng.com/data/teacher/primary_photo_26053" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Rica</span>
+                    <p class="m-0">Hello students, My name is Teacher Rica.I have been teaching English toKoreans for four years now.Learning English is fun </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row">
+
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary card-bgc-secondary rounded-0 card-teacher">
+                <img src="https://witheng.com/data/teacher/primary_photo_25985" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Gab</span>
+                    <p class="m-0">Hello! My name is Gab. I really like teaching and sharing the knowledge that I have in English. It's a pleasure for me to teach students that really eager to learn in a fun and productive way.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0 card-teacher">
+                <img src="https://witheng.com/data/teacher/primary_photo_26002" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Iyah</span>
+                    <p class="m-0">Hi thereI'm Teacher Iyah. I have been teaching English for 7 years nowand I can say thatteaching has always been my passion. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0 card-teacher">
+                <img src="https://witheng.com/data/teacher/primary_photo_27018" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Maybelle</span>
+                    <p class="m-0">Hey there! This is teacher Maybelle. I'm 25 years old and I have been teaching English for almost years now. I chose this field of work because I enjoy communicating with people.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</div>
+</div>
+<div class="carousel-item">
+    <div class="row">
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary border-0 rounded-0 bg-secondary">
+                <img src="https://witheng.com/data/teacher/primary_photo_21305" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Sofia</span>
+                    <p class="m-0">HelloStudents !! My name is Teacher So, I've taught English for 5 years.I handle begginer, intermediate and advance students. I am </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher rounded-0">
+                        <a href="#" class="pull-right ">Read more..</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0">
+                <img src="https://witheng.com/data/teacher/primary_photo_26816" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Sab</span>
+                    <p class="m-0">Hello everyone! I'm teaching Tannia and I love teaching students. I have also been experienced in the development of the </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right ">Read more..</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0">
+                <img src="https://witheng.com/data/teacher/primary_photo_26554" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Ema</span>
+                    <p class="m-0">Hello students, My name is Teacher Rica.I have been teaching English toKoreans for four years now.Learning English is fun </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right ">Read more..</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row">
+        <div class="col-md-4 pt-2 pb-4">
+        <div class="card card-bgc-secondary rounded-0">
+            <img src="https://witheng.com/data/teacher/primary_photo_27830" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Cassy</span>
+                <p class="m-0">Hello! My name is Gab. I really like teaching and sharing the knowledge that I have in English. It's a pleasure for me to teach students that really eager to learn in a fun and productive way.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-g-teacher">
+                    <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4 pt-2 pb-4">
+        <div class="card card-bgc-secondary rounded-0">
+            <img src="https://witheng.com/data/teacher/primary_photo_35071" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Nice</span>
+                <p class="m-0">Hi thereI'm Teacher Iyah. I have been teaching English for 7 years nowand I can say thatteaching has always been my passion. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-g-teacher">
+                    <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4 pt-2 pb-4">
+        <div class="card card-bgc-secondary rounded-0">
+            <img src="https://witheng.com/data/teacher/primary_photo_44998" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Kriss</span>
+                <p class="m-0">Hey there! This is teacher Maybelle. I'm 25 years old and I have been teaching English for almost years now. I chose this field of work because I enjoy communicating with people.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-g-teacher">
+                    <a href="#" class="pull-right ">Read more..</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row">
+        <div class="col-md-4 pt-2 pb-4">
+        <div class="card card-bgc-secondary rounded-0">
+            <img src="https://witheng.com/data/teacher/primary_photo_45612" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Cammille</span>
+                <p class="m-0">HelloStudents !! My name is Teacher So, I've taught English for 5 years.I handle begginer, intermediate and advance students. I am </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-g-teacher rounded-0">
+                    <a href="#" class="pull-right">Read more..</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4 pt-2 pb-4">
+        <div class="card card-bgc-secondary rounded-0">
+            <img src="https://witheng.com/data/teacher/primary_photo_45730" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p-3">
+                <span class="text-center">Teacher Chelly</span>
+                <p class="m-0">Hello everyone! I'm teaching Tannia and I love teaching students. I have also been experienced in the development of the </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-g-teacher">
+                    <a href="#" class="pull-right">Read more..</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-4 pt-2 pb-4">
+        <div class="card card-bgc-secondary rounded-0">
+            <img src="https://witheng.com/data/teacher/primary_photo_45610" alt="" class="rounded-0 card-img-top">
+            <div class="card-body list-g-teacher p3">
+                <span class="text-center">Teacher Aliana</span>
+                <p class="m-0">Hello students, My name is Teacher Rica.I have been teaching English toKoreans for four years now.Learning English is fun </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-g-teacher">
+                    <a href="#" class="pull-right">Read more..</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row">
+
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0">
+                <img src="https://witheng.com/data/teacher/primary_photo_45819" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Laira</span>
+                    <p class="m-0">Hello! My name is Gab. I really like teaching and sharing the knowledge that I have in English. It's a pleasure for me to teach students that really eager to learn in a fun and productive way.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0">
+                <img src="https://witheng.com/data/teacher/primary_photo_45820" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                    <span class="text-center">Teacher Aileen</span>
+                    <p class="m-0">Hi thereI'm Teacher Iyah. I have been teaching English for 7 years nowand I can say thatteaching has always been my passtion. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-g-teacher">
+                        <a href="#" class="pull-right">Read more..</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 pt-2 pb-4">
+            <div class="card card-bgc-secondary rounded-0">
+                <img src="https://witheng.com/data/teacher/primary_photo_45850" alt="" class="rounded-0 card-img-top">
+                <div class="card-body list-g-teacher p-3">
+                   <span class="text-center">Teacher Laira</span>
+                   <p class="m-0">Hey there! This is teacher Maybelle. I'm 25 years old and I have been teaching English for almost years now. I chose this field of work because I enjoy communicating with people.</p>
+               </div>
+               <ul class="list-group list-group-flush">
+                <li class="list-group-item list-g-teacher">
+                    <a href="#" class="pull-right">Read more..</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+</a>
+</div> -->
  </div>
 </div>
 
