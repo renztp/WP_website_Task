@@ -178,7 +178,7 @@
         </p> 
     </div>
     <div class="col-md-4 pt-2 pb-4">
-        <div class="card card-bgc-secondary rounded-0 bg-secondary">
+        <div class="card card-bgc-secondary rounded-0 bg-secondary border-0">
             <img src="https://witheng.com/data/teacher/primary_photo_21305" alt="" class="rounded-0 card-img-top">
             <div class="card-body list-g-teacher p-3">
                 <span class="text-center">Teacher Sofia</span>

@@ -30,10 +30,10 @@
             <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto ml-0" id="theNav" style="font-size: 0.8rem;">
                     <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="pl-0 nav-link">Home</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/classes/" class="nav-link">Classes</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/test/" class="nav-link">Level test</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/index.php/careers/" class="nav-link">Careers</a></li>
-                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>/index.php/aboutus/" class="nav-link">About Us</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/classes/" class="nav-link">Classes</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/test/" class="nav-link">Level test</a></li>
+                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/careers/" class="nav-link">Careers</a></li>
+                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link">About Us</a></li>
                     <!-- <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link"><i class="fa fa-bars"></i></a></li> -->
                 </ul>
 

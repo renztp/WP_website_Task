@@ -64,9 +64,10 @@
         select, span { color: $color * .5; }
 
         input {
+            border: 1px solid $color * .95;
+
             color: $color * 1.8;
             background: $color * .97;
-            border: 1px solid $color * .95;
             &:focus {
                 background: $color * .89;   
                 color: $color * 1.8;
@@ -77,9 +78,9 @@
 
 
 .pagi-bg { 
+    border: 1px solid map-get($colors, secondary) * 0.85;
     background-color: map-get($colors, secondary) * 0.97; 
     color: map-get($text-colors, paraText);
-    border: 1px solid map-get($colors, secondary) * 0.85;
 }
 
 @each $buttons, $color in $colors { .buttons-#{$buttons} { background: $color;} }
@@ -90,7 +91,7 @@ body { background: map-get($colors, secondary) * .88; }
     background: map-get($colors, secondary);
 }
 
-.navbar { 
+.navbar {
     a.nav-link {
         mix-blend-mode: exclusion;
         &:hover { color: map-get($text-colors, headerText) * 2.5; }

@@ -53,9 +53,9 @@
   .card-bgc-primary select, .card-bgc-primary span {
     color: #2d1807; }
   .card-bgc-primary input {
+    border: 1px solid #552d0c;
     color: #a05517;
-    background: #562e0d;
-    border: 1px solid #552d0c; }
+    background: #562e0d; }
     .card-bgc-primary input:focus {
       background: #4f2a0c;
       color: #a05517; }
@@ -82,9 +82,9 @@
   .card-bgc-secondary select, .card-bgc-secondary span {
     color: #807369; }
   .card-bgc-secondary input {
+    border: 1px solid #f2dac7;
     color: white;
-    background: #f7decb;
-    border: 1px solid #f2dac7; }
+    background: #f7decb; }
     .card-bgc-secondary input:focus {
       background: #e3ccba;
       color: white; }
@@ -111,17 +111,17 @@
   .card-bgc-important select, .card-bgc-important span {
     color: maroon; }
   .card-bgc-important input {
+    border: 1px solid #f20000;
     color: red;
-    background: #f70000;
-    border: 1px solid #f20000; }
+    background: #f70000; }
     .card-bgc-important input:focus {
       background: #e30000;
       color: red; }
 
 .pagi-bg {
+  border: 1px solid #d9c3b2;
   background-color: #f7decb;
-  color: #444;
-  border: 1px solid #d9c3b2; }
+  color: #444; }
 
 .buttons-primary {
   background: #592f0d; }

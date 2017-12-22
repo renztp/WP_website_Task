@@ -10,9 +10,7 @@
 }
 
 .act {
-    .list-group-item {
-        pointer-events: none;
-    }
+    .list-group-item { pointer-events: none; }
 
     %stats {
         height: 200px;
@@ -42,9 +40,7 @@
 .main { background: #fff; }
 
 .card-info {
-    ul li {
-        display: inline-block;
-    }
+    ul li { display: inline-block; }
 }
 
 .prof-pic {
@@ -58,9 +54,7 @@
     a { text-decoration: none; }
 }
 
-.list-group-item, .list-g-compo, .list-group-teacher {
-    border-radius: 0;
-}
+.list-group-item, .list-g-compo, .list-group-teacher { border-radius: 0; }
 
 .m-remind {
     font-size: 0.7rem;
@@ -128,15 +122,13 @@
         }
     }
     p {
+        max-height: 3rem;
         overflow: hidden;
         line-height: 1.2em;
-        max-height: 3rem;
         text-overflow: ellipsis;
     }
 
-    a {
-        font-size: 0.8rem;
-    }
+    a { font-size: 0.8rem; }
 }
 
 .m-ad_1 {
@@ -149,8 +141,8 @@
 }
 
 .m-ad_2 {
-        height: 24.2vh;
-        margin-bottom: 20px;
+    height: 24.2vh;
+    margin-bottom: 20px;
 }
 
 .m-ad_3 {

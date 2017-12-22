@@ -178,7 +178,7 @@
             In Guttok Video English, we are recruiting talented people and conducting classes that satisfy all students after the instructor training.
         </p>
     </div>
-    <!--
+    
     <div class="col-md-4 pt-2 pb-4">
         <div class="card card-bgc-secondary rounded-0 crd-teacher">
             <img src="https://witheng.com/data/teacher/primary_photo_23656" alt="" class="rounded-0 card-img-top">
@@ -284,12 +284,12 @@
 </ul>
 </div>
 
- -->
+ 
 
 
 
 
- <div id="carouselExampleControls" class="carousel slide  pl-3 pr-3 pb-3 pt-2" data-ride="carousel">
+ <!-- <div id="carouselExampleControls" class="carousel slide  pl-3 pr-3 pb-3 pt-2" data-ride="carousel">
   <div class="carousel-inner">
     <ol class="carousel-indicators mb-5">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"  style="bottom: -58px;"></li>
@@ -591,7 +591,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
 </a>
-</div>
+</div> -->
  </div>
 </div>
 
