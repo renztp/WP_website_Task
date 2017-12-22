@@ -32,9 +32,6 @@
     }
 }
 
-
-
-
 // for cards and border
 @each $card, $color in $colors {
     .card-bgc-#{$card}{
@@ -75,7 +72,6 @@
         }
     }
 }
-
 
 .pagi-bg { 
     border: 1px solid map-get($colors, secondary) * 0.85;

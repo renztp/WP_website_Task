@@ -155,13 +155,6 @@ nav {
   background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
   background-size: 100%; }
 
-.btn-grp .button-group .btn label::after {
-  background: #333; }
-.btn-grp .button-group .btn label::focus {
-  background: #333; }
-.btn-grp .button-group .btn label::before {
-  background: #fff; }
-
 nav a:hover {
   color: #ddd; }
 
