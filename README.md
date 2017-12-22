@@ -1,9 +1,4 @@
 
-
-LIVE SAMPLE TEST SITE 
-TO TRY HEAD TO 
-https://renztp.github.io
-
 ## Pages and their slug
 1. Page aboutus - /aboutus/
 2. Page careers - /careers/
@@ -15,3 +10,7 @@ https://renztp.github.io
 8. Page Register - /register/
 9. Page profile - /profile/
 10. Page level test - /test/
+
+## LIVE SAMPLE TEST SITE 
+TO TRY HEAD TO 
+https://renztp.github.io
