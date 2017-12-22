@@ -23,8 +23,8 @@
                     
                     <div class="card card-bgc-secondary rounded-0 m-login mb-3">
                         <div class="list-group list-group-flush about-links">
-                            <a class="list-group-item list-g-compo list-link rounded-0" href="<?php echo home_url(); ?>/index.php/faqs/"><i class="fa fa-angle-right"></i> FAQS</a>
-                            <a class="list-group-item list-g-compo list-link rounded-0" href="<?php echo home_url(); ?>/index.php/careers/"><i class="fa fa-angle-right"></i> Careers</a>
+                            <a class="list-group-item list-g-compo list-link rounded-0" href="<?php echo home_url(); ?>/faqs/"><i class="fa fa-angle-right"></i> FAQS</a>
+                            <a class="list-group-item list-g-compo list-link rounded-0" href="<?php echo home_url(); ?>/careers/"><i class="fa fa-angle-right"></i> Careers</a>
                         </div>
                     </div>
                 </div>

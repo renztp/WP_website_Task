@@ -48,11 +48,11 @@
                           </script>
                       </div>                        
                       
-                        <a href="<?php echo home_url(); ?>/index.php/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Register</a></a>
+                        <a href="<?php echo home_url(); ?>/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Register</a></a>
                     </form>
                 </div>
                 <div class="list-group list-group-flush mt-5">
-                    <a href="<?php echo home_url(); ?>/index.php/login/" class="text-secondary">
+                    <a href="<?php echo home_url(); ?>/login/" class="text-secondary">
                     <div class="list-group-item list-g-compo text-center">
                         <span class="pl-3">Already Have an account? Login now.</span>
                     </div>

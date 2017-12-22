@@ -15,8 +15,8 @@
                     <div class="form-group">
                         <input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
                     </div>
-                    <span> <a href="#" data-toggle="modal" data-target="#exampleModal"  class=""><u>Forgot Password?</u></a> <span class="card-msg">or</span> <a href="<?php echo home_url(); ?>/index.php/register/" class=""><u>Register.</u></a></span>
-                        <a href="<?php echo home_url(); ?>/index.php/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Login</a></a>
+                    <span> <a href="#" data-toggle="modal" data-target="#exampleModal"  class=""><u>Forgot Password?</u></a> <span class="card-msg">or</span> <a href="<?php echo home_url(); ?>/register/" class=""><u>Register.</u></a></span>
+                        <a href="<?php echo home_url(); ?>/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Login</a></a>
                 </form>
             </div>
         </div>
@@ -273,8 +273,8 @@
         </a>
     </li>
     <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>">1</a></li>
-    <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>/index.php/content-2/">2</a></li>
-    <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>/index.php/content-3/">3</a></li>
+    <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>/content-2/">2</a></li>
+    <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>/content-3/">3</a></li>
     <li class="page-item">
       <a class="page-link  pagi-bg" href="#" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>

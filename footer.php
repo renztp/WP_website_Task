@@ -13,10 +13,10 @@
        <div class="container">
         <ul class="nav end-nav justify-content-center">
           <li class="nav-item"><a href="<?php echo home_url();?>" class="nav-link text-secondary">Home</a></li>
-          <li class="nav-item"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Classes</a></li>
-          <li class="nav-item"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Level test</a></li>
-          <li class="nav-item"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">Review</a></li>
-          <li class="nav-item"><a href="<?php echo home_url(); ?>" class="nav-link text-secondary">About Us</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/classes/" class="nav-link text-secondary">Classes</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/test/" class="nav-link text-secondary">Level test</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/careers/" class="nav-link text-secondary">Careers</a></li>
+          <li class="nav-item"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link text-secondary">About Us</a></li>
         </ul>
         
          </div>

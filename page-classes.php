@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-md-9">
                             <h5 class="pl-3">Heon Woo jung</h5>
-                            <a href=" <?php echo home_url(); ?>/index.php/profile/" class="btn butt-bg rounded-0 ml-3 text-center">View Profile</a>
+                            <a href=" <?php echo home_url(); ?>/profile/" class="btn butt-bg rounded-0 ml-3 text-center">View Profile</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="card card-bgc-secondary rounded-0 m-login mb-3">
                 <div class="list-group list-group-flush about-links">
-                    <a class="list-group-item list-g-compo rounded-0 list-link" href="<?php echo home_url(); ?>/index.php/faqs/"><i class="fa fa-angle-right"></i> FAQS</a></div>
+                    <a class="list-group-item list-g-compo rounded-0 list-link" href="<?php echo home_url(); ?>/faqs/"><i class="fa fa-angle-right"></i> FAQS</a></div>
                 </div>
         </div>
 

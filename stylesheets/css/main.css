@@ -24,14 +24,10 @@ nav {
       border: 0px; }
 
 .front-caro .carousel-inner, .front-caro .carousel-item, .teacher_caro .carousel-inner, .teacher_caro .carousel-item {
-  height: 367px;
+  height: 374px;
   width: auto;
   overflow: hidden; }
 
-.front-caro .carousel-inner {
-  height: 367px; }
-.front-caro .carousel-item {
-  height: 367px; }
 .front-caro .carousel-item img {
   filter: contrast(40%); }
 

@@ -30,12 +30,12 @@
 
                         </div>
                         
-                        <a href="<?php echo home_url(); ?>/index.php/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Login</a></a>
+                        <a href="<?php echo home_url(); ?>/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Login</a></a>
                     </form>
                     <div class="spaces" style="height: 3rem;"></div>
                 </div>
                 <div class="list-group list-group-flush mt-5">
-                    <a href="<?php echo home_url(); ?>/index.php/register/" class="text-secondary">
+                    <a href="<?php echo home_url(); ?>/register/" class="text-secondary">
                     <div class="list-group-item list-g-compo text-center">
                         <span class="pl-3">Don't have an account? Register Now. It's FREE.</span>
                     </div>
