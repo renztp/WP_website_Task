@@ -1,5 +1,5 @@
 .front-caro .carousel-inner, .front-caro .carousel-item, .teacher_caro .carousel-inner, .teacher_caro .carousel-item {
-  height: 374px;
+  height: 370px;
   width: auto;
   overflow: hidden; }
 
@@ -7,9 +7,9 @@
   filter: contrast(40%); }
 
 .teacher_caro .carousel-inner {
-  height: 390px; }
+  height: 370px; }
 .teacher_caro .carousel-item {
-  height: 390px; }
+  height: 370px; }
 
 .carousel-caption p {
   font-size: 1rem; }

@@ -1,5 +1,5 @@
 %static_car {
-    height: 374px;
+    height: 370px;
     width: auto;
     overflow: hidden;
 }
@@ -17,11 +17,11 @@
 
 .teacher_caro {
     .carousel-inner { 
-        height: 390px; 
+        height: 370px; 
         @extend %static_car; 
     }
     .carousel-item { 
-        height: 390px;
+        height: 370px;
         @extend %static_car; 
     }
 }
