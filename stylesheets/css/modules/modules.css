@@ -10,6 +10,19 @@
   .m-login span {
     font-size: 0.750rem; }
 
+.m-remind {
+  font-size: 0.7rem; }
+  .m-remind .card-header {
+    font-size: 0.8rem; }
+  .m-remind input, .m-remind select {
+    font-size: 0.8rem; }
+  .m-remind .btn {
+    font-size: 0.8rem;
+    cursor: pointer; }
+
+.card-header {
+  font-family: 'Quicksand'; }
+
 .act .list-group-item {
   pointer-events: none; }
 .act .img_1, .act .img_2, .act .img_3 {
@@ -42,14 +55,6 @@
 
 .list-group-item, .list-g-compo, .list-group-teacher {
   border-radius: 0; }
-
-.m-remind {
-  font-size: 0.7rem; }
-  .m-remind .card-header {
-    font-size: 0.8rem; }
-  .m-remind .btn {
-    font-size: 0.8rem;
-    cursor: pointer; }
 
 .images .img_one {
   background-size: cover; }
@@ -115,10 +120,14 @@
   background-size: 100%; }
 
 nav {
-  text-transform: uppercase;
-  font-family: Oxygen; }
-  nav a {
-    color: #fff; }
+  text-transform: capitalize;
+  font-family: 'Quicksand', sans-serif; }
+  nav li.nav-item {
+    font-size: 1.2em; }
+  nav a.nav-link {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px; }
   nav input {
     border-radius: 0; }
   nav .input-group-addon {
@@ -126,14 +135,14 @@ nav {
   nav .navbar-brand {
     text-transform: capitalize; }
   nav span {
-    font-size: 10px; }
+    font-size: 15px; }
   nav .form-inline {
     border: 0px; }
     nav .form-inline button {
       border: 0px; }
 
 .front-caro .carousel-inner, .front-caro .carousel-item, .teacher_caro .carousel-inner, .teacher_caro .carousel-item {
-  height: 370px;
+  height: 377px;
   width: auto;
   overflow: hidden; }
 

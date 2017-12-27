@@ -17,22 +17,31 @@
     @else { border: 0; }
 }
 
+@mixin headPara($header, $para){
+    h3 { color: map-get($text-colors, anchorText) * $header; }
+    p { color: map-get($text-colors, anchorText) * $para; }
+}
+
+
+
 // for navbar
 @each $theList, $color in $colors {
     .navi-#{$theList} {
-        background: $color * 1;
-        color: $color * 2.3;
+        background: darken($color, 1.5%);
+        color: invert($color, 80);
         .form-inline {
             input {
-                background: $color * .6;
-                &:focus { background: $color * .2; }
+                background: darken($color, 30%);
+                &:focus { background: darken($color, 50%); }
             }
             button {
-                background: $color * .7;
-                color: $color * 2;
+                background: darken($color, 8%);
+                color: lighten($color, 7%);
             }
         }
     }
+
+
     b {
         mix-blend-mode: exclusion;
     }
@@ -45,30 +54,28 @@
         @include checkBorder($color, .8);
 
         background: $color * 1;
-        .list-group-flush { background: $color * .80; }        
-        .list-g-teacher { background: $color * .88; } 
+        .list-group-flush { background: invert($color, 10); }  
+        .list-g-teacher { background: invert($color, 10); } 
         .bgc-#{$card} { background-color: $color; }
 
         .butt-bg {
-            background: $color * .7;
-            color: $color * 1.3;
+            background: invert($color, 40);
+            color: invert($color, 10);
         }
 
         .list-g-compo {
-            background: $color * 1;
+            background: $color;
             &:hover { background: $color * 0.9; }
         }
 
         .card-header {
-            background: $color * .8;
-            color: $color * 1.3; 
+            background: invert($color, 20);
         }
 
-        select, span { color: $color * .5; }
+        select, span { color: invert($color, 80); }
 
         input {
             border: 1px solid $color * .95;
-
             color: $color * 1.8;
             background: $color * .97;
             &:focus {
@@ -96,10 +103,11 @@ body { background: map-get($colors, secondary) * .88; }
 .navbar {
     a.nav-link {
         mix-blend-mode: exclusion;
-        &:hover { color: map-get($text-colors, headerText) * 2.5; }
+        &:hover { color: darken(map-get($text-colors, headerText) * 2.5, 1%); }
     } 
 }
 
+// for fonts and headers
 h1, h2, h3, h4, h5, h6 { color: map-get($text-colors, headerText); }
 p, b, li, span.card-msg { color: map-get($text-colors, paraText); }
 
@@ -108,11 +116,7 @@ a {
     &:hover { color: map-get($text-colors, anchorText) * .5; }
 }
 
-@mixin headPara($header, $para){
-    h3 { color: map-get($text-colors, anchorText) * $header; }
-    p { color: map-get($text-colors, anchorText) * $para; }
-}
-
+// for carousel
 .carousel-inner { @include headPara(2.5, 2.3); }
 footer { @include headPara(1.8, 1); }
 

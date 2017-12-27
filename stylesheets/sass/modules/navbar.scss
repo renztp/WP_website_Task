@@ -1,12 +1,21 @@
 nav {
-    text-transform: uppercase;
-    font-family: Oxygen;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+
+    li.nav-item {
+        font-size: 1.2em; 
+    }
     
-    a { color: #fff; }
+    a.nav-link { 
+        color: #fff; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
     input { border-radius: 0; }
     .input-group-addon { border-radius: 0; }
     .navbar-brand { text-transform: capitalize; }
-    span { font-size:10px; }
+    span { font-size: 15px; }
 
     .form-inline {
         border: 0px;

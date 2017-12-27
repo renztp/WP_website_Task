@@ -9,6 +9,21 @@
     span { font-size: 0.750rem; }
 }
 
+.m-remind {
+    font-size: 0.7rem;
+    .card-header { font-size: 0.8rem; }
+    input, select { font-size: 0.8rem; }
+    .btn {
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+}
+
+.card-header {
+    font-family: 'Quicksand';
+}
+
+
 .act {
     .list-group-item { pointer-events: none; }
 
@@ -56,44 +71,37 @@
 
 .list-group-item, .list-g-compo, .list-group-teacher { border-radius: 0; }
 
-.m-remind {
-    font-size: 0.7rem;
-    .card-header { font-size: 0.8rem; }
-    .btn {
-        font-size: 0.8rem;
-        cursor: pointer;
-    }
-}
+
 
 %image_prop { background-size: cover; }
 %image_small { background-size: cover; height: 150px; }
 
 .images {
     .img_one {
-       background-image: url("https://static1.squarespace.com/static/5769744f9de4bbb5295da829/t/578cbc5946c3c4caeed0a852/1469560699882/?format=750w");
-        height: 315px;
-        @extend %image_prop;
-        background-position: -180px;
-   }
+     background-image: url("https://static1.squarespace.com/static/5769744f9de4bbb5295da829/t/578cbc5946c3c4caeed0a852/1469560699882/?format=750w");
+     height: 315px;
+     @extend %image_prop;
+     background-position: -180px;
+ }
 
-   .img_two {
+ .img_two {
     background-image: url("https://ak6.picdn.net/shutterstock/videos/9553946/thumb/4.jpg");
     @extend %image_small;
-   }
-   .img_three {
+}
+.img_three {
     background-image: url("https://ak0.picdn.net/shutterstock/videos/7854460/thumb/1.jpg");
     @extend %image_small;
-   }
+}
 
-   .img_four {
+.img_four {
     background-image: url("http://ak1.picdn.net/shutterstock/videos/2726501/thumb/8.jpg");
     @extend %image_small;
-   }
+}
 
-   .img_five {
+.img_five {
     background-image: url("https://fthmb.tqn.com/AqyUd2ECYzm__HFknUiki1axWyg=/960x0/filters:no_upscale()/iStock-491632268-58499dab5f9b58dcccdf537a.jpg");
     @extend %image_small;
-   }
+}
 
 }
 

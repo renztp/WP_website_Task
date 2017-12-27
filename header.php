@@ -12,29 +12,26 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto" rel="stylesheet"> -->
     <!-- NAVBRAND FONT -->
     <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Quicksand" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navi-primary">
         <div class="container pl-0 pr-0">
             <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/book-icon.svg" width="30" height="30" alt=""> <b style="mix-blend-mode: exclusion">SpeakIn</b></a>
-            <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> 
+
             <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto ml-0" id="theNav" style="font-size: 0.8rem;">
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>" class="pl-0 nav-link">Home</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/classes/" class="nav-link">Classes</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/test/" class="nav-link">Level test</a></li>
-                    <li class="nav-item pr-3"><a href="<?php echo home_url(); ?>/careers/" class="nav-link">Careers</a></li>
-                    <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link">About Us</a></li>
-                    <!-- <li class="nav-item pr-0"><a href="<?php echo home_url(); ?>" class="nav-link"><i class="fa fa-bars"></i></a></li> -->
+                <ul class="navbar-nav mx-auto pl-5" id="theNav" style="font-size: 0.8rem;">
+                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>" class=" nav-link">Home</a></li>
+                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/classes/" class="nav-link">Classes</a></li>
+                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/test/" class="nav-link">Level test</a></li>
+                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/careers/" class="nav-link">Careers</a></li>
+                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link">About Us</a></li>
                 </ul>
 
                 <form class="form-inline">
@@ -46,5 +43,6 @@
             </div>
         </div>
     </nav>
+
 
     

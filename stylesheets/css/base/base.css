@@ -5,7 +5,7 @@
   font-family: 'oxygen';
   src: url("../../assets/fonts/Oxygen-Regular.ttf"); }
 body {
-  font-family: roboto, oxygen, sans-serif, serif, verdana;
+  font-family: sans-serif;
   position: relative; }
 
 p {

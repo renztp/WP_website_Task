@@ -1,10 +1,9 @@
-<br>
-<div class="container">
+<div class="container mt-4"> 
     <div class="row">
         <!-- CARD LOGIN -->
         <div class="col-md-3 p-0">
-            <div class="card card-bgc-secondary rounded-0 m-login mb-3">
-                <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-user-o"></i> <span>Login</span></div>
+            <div class="card card-bgc-secondary rounded-0 m-remind mb-3">
+                <div class="card-header pb-2 pt-2 rounded-0 pl-3"><span> <i class="fa fa-user-o"></i> Login</span></div>
                 <div class="card-body p-3 pt-2 rounded-0">
                     <form>
                       <div class="form-group">
@@ -13,14 +12,14 @@
                     <div class="form-group">
                         <input type="password" class="form-control rounded-0" id="exampleInputPassword1" placeholder="Password">
                     </div>
-                    <span> <a href="#" data-toggle="modal" data-target="#exampleModal"  class=""><u>Forgot Password?</u></a> <span class="card-msg">or</span> <a href="<?php echo home_url(); ?>/register/" class=""><u>Register.</u></a></span>
+                    <span> <a href="#" data-toggle="modal" data-target="#exampleModal"><u>Forgot Password?</u></a> <span class="card-msg">or</span> <a href="<?php echo home_url(); ?>/register/"><u>Register.</u></a></span>
                         <a href="<?php echo home_url(); ?>/login/" class="btn butt-bg pr-3 pl-3 rounded-0 pull-right">Login</a></a>
                 </form>
             </div>
         </div>
         <!-- CARD REMINDER -->
         <div class="card card-bgc-secondary m-remind mb-3 rounded-0">
-            <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-sticky-note-o"></i> <span>Reminders</span></div>
+            <div class="card-header pb-2 pt-2 rounded-0 pl-3"><span><i class="fa fa-sticky-note-o"></i> Reminders</span></div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item list-g-compo rounded-0">Saturday Seminar <i class="pull-right">Dec - 9</i></li>
                 <li class="list-group-item list-g-compo rounded-0">Monday Mass <i class="pull-right">Dec - 10</i></li>
@@ -29,7 +28,7 @@
         </div>
         <!-- CARD RESERVATIONS -->
         <div class="card card-bgc-secondary login m-remind mb-3 rounded-0">
-            <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="text-left fa fa-list"></i> <span>Reservations</span></div>
+            <div class="card-header pb-2 pt-2 rounded-0 pl-3"><span><i class="text-left fa fa-list"></i> Reservations</span></div>
             <ul class="list-group list-group-flush">
                 <!-- <li class="list-group-item list-g-compo rounded-0"></li>
                 <li class="list-group-item list-g-compo rounded-0">Afternoon - Evening <i class="pull-right">1PM - 5PM</i></li> -->
@@ -54,22 +53,12 @@
                             <button class="btn butt-bg w-100 rounded-0 mt-2">View More</button></div>
                     </div>
                 </li>
-                <li class="list-group-item list-g-compo rounded-0">
-                    <div class="row">
-                        <div class="col-md-4 pr-0">
-                            <img width="80%" src="https://witheng.com/data/teacher/primary_photo_25289" alt="">
-                        </div>
-                        <div class="col-md-8 pl-0 text-center">
-                            <span class="card-msg">Teacher: Tannia <br>2017 / 12 / 07</span>
-                            <button class="btn butt-bg w-100 rounded-0 mt-2">View More</button></div>
-                    </div>
-                </li>
                 <li class="list-group-item list-g-compo rounded-0 more" style="cursor: pointer;"><span>You have 10+ more reservations</span></li>
             </ul>
         </div>
         <!-- CARD FREE CLASS LIST -->
         <div class="card card-bgc-secondary m-remind rounded-0">
-            <div class="card-header pb-2 pt-2 rounded-0 pl-3"><i class="fa fa-list-alt"></i> <span>Free Class List</span></div>
+            <div class="card-header pb-2 pt-2 rounded-0 pl-3"><span><i class="fa fa-list-alt"></i> Free Class List</span></div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item list-g-compo rounded-0">
                     <div class="row">
@@ -155,18 +144,18 @@
 </div>
 </div>
 </div>
-<div class="row main ml-0 mr-0 mt-3 pt-1">
+<div class="row main ml-0 mr-0 mt-3 pt-2 pb-1">
     <div class="col-md-4 pt-2 pb-0 pl-3">
-        <h5>Learn to speak Korean where you want; when you want.</h5>
-        <p class="text-justify">Ultimate flexibility. Pick lesson times that fit around your lifestyle and learn online from any location. It's affordable too. Book from just one Korean lesson to a whole language course.</p>
+        <h5>Live conversation. Native experienced English teachers.</h5>
+        <p class="text-justify">Ultimate flexibility. Pick lesson times that fit around your lifestyle and learn online from any location. It's affordable too. Book from just one Korean lesson to a whole language course, when you wan't.</p>
     </div>
     <div class="col-md-4 pt-2 pb-0">
-        <h5>Live conversation. Native experienced English teachers.</h5>
+        <h5>Tailor made lessons matched to your individual goals.</h5>
         <p class="text-justify">Build fluency and confidence through interactive online classes that are effective and fun. Live conversation with a native speaker is the key to success and what learning to speak a foreign language is all about.</p>
     </div>
     <div class="col-md-4 pt-2 pb-0 pr-3">
-        <h5>Tailor made lessons matched to your individual goals.</h5>
-        <p class="text-justify">Customize your learning. Enjoy tailor-made lessons delivered by some of the best online Korean tutors in the world. Online language training gives you the support & motivation you need to succeed with a touch.</p>
+       <h5>Learn to speak Korean where you want.</h5>       
+       <p class="text-justify">Customize your learning. Enjoy tailor-made lessons delivered by some of the best online Korean tutors in the world. Online language training gives you the support & motivation you need to succeed with a touch.</p>
     </div>
 </div>
 <div class="row main ml-0 mr-0 mt-3 m-teacher-cards teacher_caro">
@@ -270,6 +259,8 @@
             <span class="sr-only">Previous</span>
         </a>
     </li>
+
+
     <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>">1</a></li>
     <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>/content-2/">2</a></li>
     <li class="page-item "><a class="page-link pagi-bg" href="<?php echo home_url(); ?>/content-3/">3</a></li>

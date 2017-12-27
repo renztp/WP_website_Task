@@ -1,8 +1,12 @@
 nav {
-  text-transform: uppercase;
-  font-family: Oxygen; }
-  nav a {
-    color: #fff; }
+  text-transform: capitalize;
+  font-family: 'Quicksand', sans-serif; }
+  nav li.nav-item {
+    font-size: 1.2em; }
+  nav a.nav-link {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px; }
   nav input {
     border-radius: 0; }
   nav .input-group-addon {
@@ -10,7 +14,7 @@ nav {
   nav .navbar-brand {
     text-transform: capitalize; }
   nav span {
-    font-size: 10px; }
+    font-size: 15px; }
   nav .form-inline {
     border: 0px; }
     nav .form-inline button {

@@ -10,6 +10,19 @@
   .m-login span {
     font-size: 0.750rem; }
 
+.m-remind {
+  font-size: 0.7rem; }
+  .m-remind .card-header {
+    font-size: 0.8rem; }
+  .m-remind input, .m-remind select {
+    font-size: 0.8rem; }
+  .m-remind .btn {
+    font-size: 0.8rem;
+    cursor: pointer; }
+
+.card-header {
+  font-family: 'Quicksand'; }
+
 .act .list-group-item {
   pointer-events: none; }
 .act .img_1, .act .img_2, .act .img_3 {
@@ -42,14 +55,6 @@
 
 .list-group-item, .list-g-compo, .list-group-teacher {
   border-radius: 0; }
-
-.m-remind {
-  font-size: 0.7rem; }
-  .m-remind .card-header {
-    font-size: 0.8rem; }
-  .m-remind .btn {
-    font-size: 0.8rem;
-    cursor: pointer; }
 
 .images .img_one {
   background-size: cover; }
