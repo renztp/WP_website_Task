@@ -31,6 +31,10 @@
     server.listen(3000);
 </script>
 
+    <script id="__bs_script__">//<![CDATA[
+      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.22.0'><\/script>".replace("HOST", location.hostname));
+  //]]></script>
+
     <nav class="navbar navbar-expand-lg navi-primary">
         <div class="container pl-0 pr-0">
             <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/book-icon.svg" width="30" height="30" alt=""><b style="vertical-align: middle; font-size: 0.9em;" class="logo-label"> SpeakIn</b></a>
