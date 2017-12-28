@@ -69,7 +69,10 @@
     a { text-decoration: none; }
 }
 
-.list-group-item, .list-g-compo, .list-group-teacher { border-radius: 0; }
+.list-group-item, .list-g-compo, .list-group-teacher { 
+    border-radius: 0; 
+    cursor: pointer;
+}
 
 
 

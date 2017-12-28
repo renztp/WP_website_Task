@@ -1,11 +1,5 @@
-@font-face {
-  font-family: 'roboto';
-  src: url("../../assets/fonts/Roboto-Regular.ttf"); }
-@font-face {
-  font-family: 'oxygen';
-  src: url("../../assets/fonts/Oxygen-Regular.ttf"); }
 body {
-  font-family: sans-serif;
+  font-family: sans-serif, serif, verdana;
   position: relative; }
 
 p {
@@ -67,7 +61,8 @@ p {
   text-decoration: none; }
 
 .list-group-item, .list-g-compo, .list-group-teacher {
-  border-radius: 0; }
+  border-radius: 0;
+  cursor: pointer; }
 
 .images .img_one {
   background-size: cover; }
@@ -174,32 +169,32 @@ nav a:hover {
   color: #ddd; }
 
 .navi-primary {
-  background: #2f2f2f;
-  color: #adadad; }
+  background: #522b0c;
+  color: #97b0c4; }
   .navi-primary .form-inline input {
     background: black; }
     .navi-primary .form-inline input:focus {
       background: black; }
   .navi-primary .form-inline button {
-    background: #1f1f1f;
-    color: #454545; }
+    background: #351c08;
+    color: #8e4b15; }
 
-b {
-  mix-blend-mode: exclusion; }
+b.logo-label {
+  color: gray; }
 
 .navi-secondary {
-  background: #fbfbfb;
-  color: #333333; }
+  background: #ffe1c9;
+  color: #33434f; }
   .navi-secondary .form-inline input {
-    background: #b3b3b3; }
+    background: #ff8f38; }
     .navi-secondary .form-inline input:focus {
-      background: gray; }
+      background: #d15b00; }
   .navi-secondary .form-inline button {
-    background: #ebebeb;
+    background: #ffcea8;
     color: white; }
 
-b {
-  mix-blend-mode: exclusion; }
+b.logo-label {
+  color: gray; }
 
 .navi-important {
   background: #f70000;
@@ -210,72 +205,69 @@ b {
       background: black; }
   .navi-important .form-inline button {
     background: #d60000;
-    color: #ff2424; }
+    color: #ff3d3d; }
 
-b {
-  mix-blend-mode: exclusion; }
+b.logo-label {
+  color: gray; }
 
 .card-bgc-primary {
-  box-shadow: 0px 2px 3px #292929;
-  border: 1 solid #292929;
-  background: #333333; }
+  border: 0;
+  background: #592f0d; }
   .card-bgc-primary .list-group-flush {
-    background: #424242; }
+    background: #613f24; }
   .card-bgc-primary .list-g-teacher {
-    background: #424242; }
+    background: #613f24; }
   .card-bgc-primary .bgc-primary {
-    background-color: #333; }
+    background-color: #592f0d; }
   .card-bgc-primary .butt-bg {
-    background: #707070;
-    color: #424242; }
+    background: #786f69;
+    color: #613f24; }
   .card-bgc-primary .list-g-compo {
-    background: #333; }
+    background: #592f0d; }
     .card-bgc-primary .list-g-compo:hover {
-      background: #2e2e2e; }
+      background: #5a300f; }
   .card-bgc-primary .card-header {
-    background: #525252; }
+    background: #684f3b; }
   .card-bgc-primary select, .card-bgc-primary span {
-    color: #adadad; }
+    color: #97b0c4; }
   .card-bgc-primary input {
-    border: 1px solid #303030;
-    color: #5c5c5c;
-    background: #313131; }
+    border: 1px solid #613f24;
+    color: gray;
+    background: #5d3718; }
     .card-bgc-primary input:focus {
-      background: #2d2d2d;
-      color: #5c5c5c; }
+      background: #65472f;
+      color: gray; }
 
 .card-bgc-secondary {
-  box-shadow: 0px 2px 3px #cccccc;
-  border: 1 solid #cccccc;
-  background: white; }
+  border: 0;
+  background: #ffe5d1; }
   .card-bgc-secondary .list-group-flush {
-    background: #e6e6e6; }
+    background: #e6d1c1; }
   .card-bgc-secondary .list-g-teacher {
-    background: #e6e6e6; }
+    background: #e6d1c1; }
   .card-bgc-secondary .bgc-secondary {
-    background-color: #fff; }
+    background-color: #ffe5d1; }
   .card-bgc-secondary .butt-bg {
-    background: #999999;
-    color: #e6e6e6; }
+    background: #999490;
+    color: #e6d1c1; }
   .card-bgc-secondary .list-g-compo {
-    background: #fff; }
+    background: #ffe5d1; }
     .card-bgc-secondary .list-g-compo:hover {
-      background: #e6e6e6; }
+      background: #fde3d0; }
   .card-bgc-secondary .card-header {
-    background: #cccccc; }
+    background: #ccbcb0; }
   .card-bgc-secondary select, .card-bgc-secondary span {
-    color: #333333; }
+    color: #33434f; }
   .card-bgc-secondary input {
-    border: 1px solid #f2f2f2;
-    color: white;
-    background: #f7f7f7; }
+    border: 1px solid #e6d1c1;
+    color: gray;
+    background: #f2dbc9; }
     .card-bgc-secondary input:focus {
-      background: #e3e3e3;
-      color: white; }
+      background: #d9c7b9;
+      color: gray; }
 
 .card-bgc-important {
-  box-shadow: 0px 2px 3px #cc0000;
-  border: 1 solid #cc0000;
+  border: 0;
   background: red; }
   .card-bgc-important .list-group-flush {
     background: #e61a1a; }
@@ -289,45 +281,44 @@ b {
   .card-bgc-important .list-g-compo {
     background: red; }
     .card-bgc-important .list-g-compo:hover {
-      background: #e60000; }
+      background: #fd0202; }
   .card-bgc-important .card-header {
     background: #cc3333; }
   .card-bgc-important select, .card-bgc-important span {
     color: #33cccc; }
   .card-bgc-important input {
-    border: 1px solid #f20000;
-    color: red;
-    background: #f70000; }
+    border: 1px solid #e61a1a;
+    color: gray;
+    background: #f20d0d; }
     .card-bgc-important input:focus {
-      background: #e30000;
-      color: red; }
+      background: #d92626;
+      color: gray; }
 
 .pagi-bg {
-  border: 1px solid #d9d9d9;
-  background-color: #f7f7f7;
+  border: 1px solid #ccbcb0;
+  background-color: #e6d1c1;
   color: #444; }
 
 .buttons-primary {
-  background: #333; }
+  background: #592f0d; }
 
 .buttons-secondary {
-  background: #fff; }
+  background: #ffe5d1; }
 
 .buttons-important {
   background: red; }
 
 body {
-  background: #e0e0e0; }
+  background: #e6d1c1; }
 
 .main {
-  box-shadow: 0px 2px 3px #cccccc;
-  border: 1 solid #cccccc;
-  background: #fff; }
+  border: 0;
+  background: #ffe5d1; }
 
 .navbar a.nav-link {
   mix-blend-mode: exclusion; }
   .navbar a.nav-link:hover {
-    color: #7d7d7d; }
+    color: #424242; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #333; }
@@ -338,16 +329,16 @@ p, b, li, span.card-msg {
 a {
   color: #666; }
   a:hover {
-    color: #333333; }
+    color: #6b6b6b; }
 
 .carousel-inner h3 {
-  color: white; }
+  color: #e6e6e6; }
 .carousel-inner p {
-  color: #ebebeb; }
+  color: #e6e6e6; }
 
 footer h3 {
-  color: #b8b8b8; }
+  color: #e6e6e6; }
 footer p {
-  color: #666666; }
+  color: #e6e6e6; }
 
 /*# sourceMappingURL=main.css.map */

@@ -21,9 +21,19 @@
 </head>
 <body>
 
+<script>
+    var server = require('http').createServer();
+    var io = require('socket.io')(server);
+    io.on('connection', function(client){
+      client.on('event', function(data){});
+      client.on('disconnect', function(){});
+  });
+    server.listen(3000);
+</script>
+
     <nav class="navbar navbar-expand-lg navi-primary">
         <div class="container pl-0 pr-0">
-            <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/book-icon.svg" width="30" height="30" alt=""> <b style="mix-blend-mode: exclusion">SpeakIn</b></a>
+            <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/book-icon.svg" width="30" height="30" alt=""><b style="vertical-align: middle; font-size: 0.9em;" class="logo-label"> SpeakIn</b></a>
 
             <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto pl-5" id="theNav" style="font-size: 0.8rem;">
@@ -43,6 +53,3 @@
             </div>
         </div>
     </nav>
-
-
-    

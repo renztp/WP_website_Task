@@ -146,16 +146,16 @@
 </div>
 <div class="row main ml-0 mr-0 mt-3 pt-2 pb-1">
     <div class="col-md-4 pt-2 pb-0 pl-3">
-        <h5>Live conversation. Native experienced English teachers.</h5>
-        <p class="text-justify">Ultimate flexibility. Pick lesson times that fit around your lifestyle and learn online from any location. It's affordable too. Book from just one Korean lesson to a whole language course, when you wan't.</p>
+        <h5>Live conversation. English teachers.</h5>
+        <p class="text-justify">Ultimate flexibility. Pick lesson times that fit around your lifestyle and learn online from any location. It's affordable too. Book from just one Korean lesson to a whole language course, when you wan't. enjoy our tailor made lessons!</p>
     </div>
     <div class="col-md-4 pt-2 pb-0">
-        <h5>Tailor made lessons matched to your individual goals.</h5>
-        <p class="text-justify">Build fluency and confidence through interactive online classes that are effective and fun. Live conversation with a native speaker is the key to success and what learning to speak a foreign language is all about.</p>
+        <h5>Lessons matched to your goals.</h5>
+        <p class="text-justify">Build fluency and confidence through interactive online classes that are effective and fun. Live conversation with a native speaker is the key to success and what learning to speak a foreign language is all about. so sign up today to begin your lessons.</p>
     </div>
     <div class="col-md-4 pt-2 pb-0 pr-3">
-       <h5>Learn to speak Korean where you want.</h5>       
-       <p class="text-justify">Customize your learning. Enjoy tailor-made lessons delivered by some of the best online Korean tutors in the world. Online language training gives you the support & motivation you need to succeed with a touch.</p>
+       <h5>Speak Korean where you want.</h5>       
+       <p class="text-justify">Customize your learning. Enjoy tailor-made lessons delivered by some of the best online Korean tutors in the world. Online language training gives you the support & motivation you need to succeed with a touch. Improve your english today.</p>
     </div>
 </div>
 <div class="row main ml-0 mr-0 mt-3 m-teacher-cards teacher_caro">

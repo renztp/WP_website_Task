@@ -54,7 +54,8 @@
   text-decoration: none; }
 
 .list-group-item, .list-g-compo, .list-group-teacher {
-  border-radius: 0; }
+  border-radius: 0;
+  cursor: pointer; }
 
 .images .img_one {
   background-size: cover; }

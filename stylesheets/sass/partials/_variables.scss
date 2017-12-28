@@ -15,20 +15,4 @@ $border-contrast-black: 1px solid #000;
 $border-contrast-white: 1px solid #000;
 $trans_dark: rgba(2, 2, 2, 0.5);
 $trans_light: rgba(9, 9, 9, 0.5);
-$pos-a: absolute;
-$pos-r: relative;
-$pos-s: sticky;
-$pos-f: fixed;
-$pos: auto;
-
-@font-face {
-    font-family: 'roboto';
-    src: url('../../assets/fonts/Roboto-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'oxygen';
-    src: url('../../assets/fonts/Oxygen-Regular.ttf');
-}
-
-$font-stack: roboto, sans-serif, serif, verdana;
+$font-stack: sans-serif, serif, verdana;

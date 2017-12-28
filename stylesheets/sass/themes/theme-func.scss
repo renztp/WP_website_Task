@@ -1,25 +1,26 @@
-@import 'premade-themes/theme-default';
-// @import 'premade-themes/theme-dark';
+// @import 'premade-themes/theme-default';
 // @import 'premade-themes/theme-light';
-// @import 'premade-themes/theme-nature';
+@import 'premade-themes/theme-nature';
+// @import 'premade-themes/theme-dark';
+
 
 
 @mixin checkBorder($var, $percent){
     @if map-get($border-opt, border-active) {
         @if map-get($border-opt, border-theme) == 'material' {
-            box-shadow: 0px 2px 3px $var * $percent;
+            box-shadow: 0px 2px 3px invert($var, $percent);
         }
         @if map-get($border-opt, border-theme) == 'minimal' {
             border: 1px solid $var * $percent;
         }
-        @else { border: map-get($border-opt, border-level) solid $var * $percent; }
+        @else { border: map-get($border-opt, border-level) solid darken($var, $percent); }
     } 
     @else { border: 0; }
 }
 
 @mixin headPara($header, $para){
-    h3 { color: map-get($text-colors, anchorText) * $header; }
-    p { color: map-get($text-colors, anchorText) * $para; }
+    h3 { color: lighten(map-get($text-colors, anchorText) , 50%); }
+    p { color: lighten(map-get($text-colors, anchorText) , 50%); }
 }
 
 
@@ -36,14 +37,13 @@
             }
             button {
                 background: darken($color, 8%);
-                color: lighten($color, 7%);
+                color: lighten($color, 12%);
             }
         }
     }
 
-
-    b {
-        mix-blend-mode: exclusion;
+    b.logo-label {
+       color: invert($color, 50); 
     }
 }
 
@@ -51,9 +51,9 @@
 @each $card, $color in $colors {
     .card-bgc-#{$card}{
 
-        @include checkBorder($color, .8);
+        @include checkBorder($color, 20%);
 
-        background: $color * 1;
+        background: $color;
         .list-group-flush { background: invert($color, 10); }  
         .list-g-teacher { background: invert($color, 10); } 
         .bgc-#{$card} { background-color: $color; }
@@ -65,7 +65,7 @@
 
         .list-g-compo {
             background: $color;
-            &:hover { background: $color * 0.9; }
+            &:hover { background: invert($color, 0.9); }
         }
 
         .card-header {
@@ -75,35 +75,35 @@
         select, span { color: invert($color, 80); }
 
         input {
-            border: 1px solid $color * .95;
-            color: $color * 1.8;
-            background: $color * .97;
+            border: 1px solid invert($color, 10%);
+            color: invert($color, 50%);
+            background: invert($color, 5%);
             &:focus {
-                background: $color * .89;   
-                color: $color * 1.8;
+                background: invert($color, 15%);   
+                color: invert($color, 50%);
             }
         }
     }
 }
 
 .pagi-bg { 
-    border: 1px solid map-get($colors, secondary) * 0.85;
-    background-color: map-get($colors, secondary) * 0.97; 
+    border: 1px solid invert(map-get($colors, secondary), 20%);
+    background-color: invert(map-get($colors, secondary), 10%); 
     color: map-get($text-colors, paraText);
 }
 
 @each $buttons, $color in $colors { .buttons-#{$buttons} { background: $color;} }
-body { background: map-get($colors, secondary) * .88; }
+body { background: invert(map-get($colors, secondary) , 10%); }
 
 .main {
-    @include checkBorder(map-get($colors, secondary), .8);
+    @include checkBorder(map-get($colors, secondary), 20%);
     background: map-get($colors, secondary);
 }
 
 .navbar {
     a.nav-link {
         mix-blend-mode: exclusion;
-        &:hover { color: darken(map-get($text-colors, headerText) * 2.5, 1%); }
+        &:hover { color: invert(map-get($text-colors, headerText), 10%) }
     } 
 }
 
@@ -113,12 +113,9 @@ p, b, li, span.card-msg { color: map-get($text-colors, paraText); }
 
 a {
     color: map-get($text-colors, anchorText);
-    &:hover { color: map-get($text-colors, anchorText) * .5; }
+    &:hover { color: invert(map-get($text-colors, anchorText) , 10%); }
 }
 
 // for carousel
 .carousel-inner { @include headPara(2.5, 2.3); }
 footer { @include headPara(1.8, 1); }
-
-
-

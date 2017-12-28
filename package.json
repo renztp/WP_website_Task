@@ -1,0 +1,22 @@
+{
+  "name": "chokidar_sock",
+  "version": "1.0.0",
+  "description": "1. Page aboutus - /aboutus/ 2. Page careers - /careers/ 3. Page classes - /classes/ 4. Content page 2 - /content-2/ 5. Content page 3 - /content-3/ 6. Page Faqs - /faqs/ 7. Page login - /login/ 8. Page Register - /register/ 9. Page profile - /profile/ 10. Page level test - /test/",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renztp/WP_website_Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renztp/WP_website_Task/issues"
+  },
+  "homepage": "https://github.com/renztp/WP_website_Task#readme",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
+}
