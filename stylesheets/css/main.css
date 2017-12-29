@@ -5,6 +5,23 @@ body {
 p {
   font-size: 0.850rem; }
 
+nav li.nav-item {
+  padding-right: 25px; }
+nav li.nav-item:nth-child(1) {
+  padding-left: 0;
+  margin-left: 0; }
+nav #change-width {
+  width: 9.4rem; }
+  @media screen and (max-width: 1200px) {
+    nav #change-width {
+      width: 7.6rem; } }
+@media screen and (max-width: 1200px) {
+  nav li.nav-item:nth-child(1) {
+    padding-left: 2em; }
+  nav li.nav-item {
+    padding-right: 0;
+    padding-left: 25px; } }
+
 .m-login {
   font-size: 0.8rem; }
   .m-login .card-header {
@@ -110,7 +127,7 @@ p {
   font-size: 0.8rem; }
 
 .m-ad_1 {
-  height: 62.8vh;
+  height: 28.2em;
   margin-bottom: 20px;
   background-image: url(http://static.wirtualnemedia.pl/media/top/evan-spot-biblioteka655.jpg);
   background-size: cover;
@@ -118,12 +135,12 @@ p {
   background-position: -200px; }
 
 .m-ad_2 {
-  height: 24.2vh;
+  height: 11.7em;
   margin-bottom: 20px; }
 
 .m-ad_3 {
-  margin-bottom: 20px;
-  height: 26.1vh;
+  margin-bottom: 30px;
+  height: 12.4em;
   background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
   background-size: 100%; }
 
@@ -149,13 +166,30 @@ nav {
     nav .form-inline button {
       border: 0px; }
 
-.front-caro .carousel-inner, .front-caro .carousel-item, .teacher_caro .carousel-inner, .teacher_caro .carousel-item {
+.teacher_caro .carousel-inner, .teacher_caro .carousel-item {
   height: 377px;
   width: auto;
   overflow: hidden; }
 
+.front-caro .carousel-inner {
+  height: 373px;
+  width: auto;
+  overflow: hidden; }
+.front-caro .carousel-item {
+  height: 373px;
+  width: auto;
+  overflow: hidden; }
 .front-caro .carousel-item img {
   filter: contrast(40%); }
+@media screen and (max-width: 1200px) {
+  .front-caro .carousel-inner {
+    height: 391px;
+    width: auto;
+    overflow: hidden; }
+  .front-caro .carousel-item {
+    height: 391px;
+    width: auto;
+    overflow: hidden; } }
 
 .teacher_caro .carousel-inner {
   height: 370px; }
@@ -169,28 +203,28 @@ nav a:hover {
   color: #ddd; }
 
 .navi-primary {
-  background: #522b0c;
-  color: #97b0c4; }
+  background: #2f2f2f;
+  color: #adadad; }
   .navi-primary .form-inline input {
     background: black; }
     .navi-primary .form-inline input:focus {
       background: black; }
   .navi-primary .form-inline button {
-    background: #351c08;
-    color: #8e4b15; }
+    background: #1f1f1f;
+    color: #525252; }
 
 b.logo-label {
   color: gray; }
 
 .navi-secondary {
-  background: #ffe1c9;
-  color: #33434f; }
+  background: #fbfbfb;
+  color: #333333; }
   .navi-secondary .form-inline input {
-    background: #ff8f38; }
+    background: #b3b3b3; }
     .navi-secondary .form-inline input:focus {
-      background: #d15b00; }
+      background: gray; }
   .navi-secondary .form-inline button {
-    background: #ffcea8;
+    background: #ebebeb;
     color: white; }
 
 b.logo-label {
@@ -212,58 +246,58 @@ b.logo-label {
 
 .card-bgc-primary {
   border: 0;
-  background: #592f0d; }
+  background: #333; }
   .card-bgc-primary .list-group-flush {
-    background: #613f24; }
+    background: #424242; }
   .card-bgc-primary .list-g-teacher {
-    background: #613f24; }
+    background: #424242; }
   .card-bgc-primary .bgc-primary {
-    background-color: #592f0d; }
+    background-color: #333; }
   .card-bgc-primary .butt-bg {
-    background: #786f69;
-    color: #613f24; }
+    background: #707070;
+    color: #424242; }
   .card-bgc-primary .list-g-compo {
-    background: #592f0d; }
+    background: #333; }
     .card-bgc-primary .list-g-compo:hover {
-      background: #5a300f; }
+      background: #343434; }
   .card-bgc-primary .card-header {
-    background: #684f3b; }
+    background: #525252; }
   .card-bgc-primary select, .card-bgc-primary span {
-    color: #97b0c4; }
+    color: #adadad; }
   .card-bgc-primary input {
-    border: 1px solid #613f24;
+    border: 1px solid #424242;
     color: gray;
-    background: #5d3718; }
+    background: #3b3b3b; }
     .card-bgc-primary input:focus {
-      background: #65472f;
+      background: #4a4a4a;
       color: gray; }
 
 .card-bgc-secondary {
   border: 0;
-  background: #ffe5d1; }
+  background: #fff; }
   .card-bgc-secondary .list-group-flush {
-    background: #e6d1c1; }
+    background: #e6e6e6; }
   .card-bgc-secondary .list-g-teacher {
-    background: #e6d1c1; }
+    background: #e6e6e6; }
   .card-bgc-secondary .bgc-secondary {
-    background-color: #ffe5d1; }
+    background-color: #fff; }
   .card-bgc-secondary .butt-bg {
-    background: #999490;
-    color: #e6d1c1; }
+    background: #999999;
+    color: #e6e6e6; }
   .card-bgc-secondary .list-g-compo {
-    background: #ffe5d1; }
+    background: #fff; }
     .card-bgc-secondary .list-g-compo:hover {
-      background: #fde3d0; }
+      background: #fdfdfd; }
   .card-bgc-secondary .card-header {
-    background: #ccbcb0; }
+    background: #cccccc; }
   .card-bgc-secondary select, .card-bgc-secondary span {
-    color: #33434f; }
+    color: #333333; }
   .card-bgc-secondary input {
-    border: 1px solid #e6d1c1;
+    border: 1px solid #e6e6e6;
     color: gray;
-    background: #f2dbc9; }
+    background: #f2f2f2; }
     .card-bgc-secondary input:focus {
-      background: #d9c7b9;
+      background: #d9d9d9;
       color: gray; }
 
 .card-bgc-important {
@@ -295,25 +329,25 @@ b.logo-label {
       color: gray; }
 
 .pagi-bg {
-  border: 1px solid #ccbcb0;
-  background-color: #e6d1c1;
+  border: 1px solid #cccccc;
+  background-color: #e6e6e6;
   color: #444; }
 
 .buttons-primary {
-  background: #592f0d; }
+  background: #333; }
 
 .buttons-secondary {
-  background: #ffe5d1; }
+  background: #fff; }
 
 .buttons-important {
   background: red; }
 
 body {
-  background: #e6d1c1; }
+  background: #e6e6e6; }
 
 .main {
   border: 0;
-  background: #ffe5d1; }
+  background: #fff; }
 
 .navbar a.nav-link {
   mix-blend-mode: exclusion; }

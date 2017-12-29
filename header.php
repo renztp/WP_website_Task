@@ -21,36 +21,29 @@
 </head>
 <body>
 
-<script>
-    var server = require('http').createServer();
-    var io = require('socket.io')(server);
-    io.on('connection', function(client){
-      client.on('event', function(data){});
-      client.on('disconnect', function(){});
-  });
-    server.listen(3000);
-</script>
 
-    <script id="__bs_script__">//<![CDATA[
-      document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.22.0'><\/script>".replace("HOST", location.hostname));
-  //]]></script>
-
-    <nav class="navbar navbar-expand-lg navi-primary">
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3002/browser-sync/browser-sync-client.js?v=2.22.0'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+    <nav class="navbar navbar-expand-lg navi-primary pt-1 pb-1">
         <div class="container pl-0 pr-0">
-            <a href="<?php echo home_url(); ?>" style="font-family: share;" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/book-icon.svg" width="30" height="30" alt=""><b style="vertical-align: middle; font-size: 0.9em;" class="logo-label"> SpeakIn</b></a>
+            <a href="<?php echo home_url(); ?>" style="font-family: share; filter: invert(30%);" class="navbar-brand"><img src="<?php echo get_bloginfo('template_directory'); ?>/assets/images/logo-2.png" width="100" height="30" alt=""></a>
+            <button class="navbar-toggler btn btn-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
             <div class="collapse navbar-collapse pl-0 ml-0" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto pl-5" id="theNav" style="font-size: 0.8rem;">
-                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>" class=" nav-link">Home</a></li>
-                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/classes/" class="nav-link">Classes</a></li>
-                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/test/" class="nav-link">Level test</a></li>
-                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/careers/" class="nav-link">Careers</a></li>
-                    <li class="nav-item pr-4"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link">About Us</a></li>
+                <ul class="navbar-nav mx-auto pl-2" id="theNav" style="font-size: 0.8rem;">
+                    <li class="nav-item"><a href="<?php echo home_url(); ?>" class=" nav-link">Home</a></li>
+                    <li class="nav-item"><a href="<?php echo home_url(); ?>/classes/" class="nav-link">Classes</a></li>
+                    <li class="nav-item"><a href="<?php echo home_url(); ?>/test/" class="nav-link">Level test</a></li>
+                    <li class="nav-item"><a href="<?php echo home_url(); ?>/careers/" class="nav-link">Careers</a></li>
+                    <li class="nav-item"><a href="<?php echo home_url(); ?>/aboutus/" class="nav-link">About Us</a></li>
                 </ul>
 
                 <form class="form-inline">
                     <div class="input-group border-0">
-                        <input class="form-control rounded-0 border-0 ml-5 pt-1 pb-1" style="width: 9.4rem" placeholder="Search">
+                        <input class="form-control rounded-0 border-0 pt-1 pb-1" id="change-width" placeholder="Search">
                         <button class="input-group-addon" id="basic-addon rounded-0 border-0"><i class="fa fa-search"></i></button>
                     </div>
                 </form>

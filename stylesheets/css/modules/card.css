@@ -25,16 +25,20 @@
 
 .act .list-group-item {
   pointer-events: none; }
+
 .act .img_1, .act .img_2, .act .img_3 {
   height: 200px;
   width: auto;
   background-size: cover; }
+
 .act .img_1 {
   background-position: -80px;
   background-image: url("https://images6.alphacoders.com/462/462753.jpg"); }
+
 .act .img_2 {
   background-position: -80px;
   background-image: url("https://images8.alphacoders.com/462/thumb-1920-462748.jpg"); }
+
 .act .img_3 {
   background-image: url("https://www.nknews.org/wp-content/uploads/2015/12/3548180138_9b397de99d_b_korean-high-school-675x368.jpg"); }
 
@@ -68,12 +72,16 @@
   background-image: url("https://static1.squarespace.com/static/5769744f9de4bbb5295da829/t/578cbc5946c3c4caeed0a852/1469560699882/?format=750w");
   height: 315px;
   background-position: -180px; }
+
 .images .img_two {
   background-image: url("https://ak6.picdn.net/shutterstock/videos/9553946/thumb/4.jpg"); }
+
 .images .img_three {
   background-image: url("https://ak0.picdn.net/shutterstock/videos/7854460/thumb/1.jpg"); }
+
 .images .img_four {
   background-image: url("http://ak1.picdn.net/shutterstock/videos/2726501/thumb/8.jpg"); }
+
 .images .img_five {
   background-image: url("https://fthmb.tqn.com/AqyUd2ECYzm__HFknUiki1axWyg=/960x0/filters:no_upscale()/iStock-491632268-58499dab5f9b58dcccdf537a.jpg"); }
 
@@ -94,16 +102,18 @@
 .m-teacher-cards .card:hover {
   background: #ddd;
   cursor: pointer; }
+
 .m-teacher-cards p {
   max-height: 3rem;
   overflow: hidden;
   line-height: 1.2em;
   text-overflow: ellipsis; }
+
 .m-teacher-cards a {
   font-size: 0.8rem; }
 
 .m-ad_1 {
-  height: 62.8vh;
+  height: 28.2em;
   margin-bottom: 20px;
   background-image: url(http://static.wirtualnemedia.pl/media/top/evan-spot-biblioteka655.jpg);
   background-size: cover;
@@ -111,13 +121,11 @@
   background-position: -200px; }
 
 .m-ad_2 {
-  height: 24.2vh;
+  height: 11.7em;
   margin-bottom: 20px; }
 
 .m-ad_3 {
-  margin-bottom: 20px;
-  height: 26.1vh;
+  margin-bottom: 30px;
+  height: 12.4em;
   background-image: url(https://www.isa.org/uploadedImages/Content/Members_Corner/Leader_Resources/Operating_Documents/Free%20Web%20Seminars%20Ad%20third_square-color-high_res.jpg?n=7715);
   background-size: 100%; }
-
-/*# sourceMappingURL=card.css.map */

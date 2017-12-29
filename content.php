@@ -21,7 +21,7 @@
         <div class="card card-bgc-secondary m-remind mb-3 rounded-0">
             <div class="card-header pb-2 pt-2 rounded-0 pl-3"><span><i class="fa fa-sticky-note-o"></i> Reminders</span></div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item list-g-compo rounded-0">Saturday Seminar <i class="pull-right">Dec - 9</i></li>
+                <li class="list-group-item list-g-compo rounded-0">Saturday Seminar<i class="pull-right">Dec - 09</i></li>
                 <li class="list-group-item list-g-compo rounded-0">Monday Mass <i class="pull-right">Dec - 10</i></li>
                 <li class="list-group-item list-g-compo rounded-0">Final Period <i class="pull-right">Dec - 12</i></li>
             </ul>
@@ -593,7 +593,7 @@
     <div class="card m-ad_1 mb-3 rounded-0">
         <div class="card-body rounded-0">
             <h5 class="p-3 text-light" style="line-height: 30px; background: rgba(3, 3, 3, .5);">
-                JOIN THE HARVARD SCHOOL UNIVERSITY!
+                JOIN THE HARVARD SCHOOL!
                 <br><br>
                 APPLY NOW! TO GET A 10% DISCOUNT NOW FOR FREE!
             </h5>

@@ -1,0 +1,29 @@
+nav {
+    li.nav-item {
+        padding-right: 25px;
+    }
+
+    li.nav-item:nth-child(1){
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #change-width {
+        width: 9.4rem;
+        @media screen and (max-width: 1200px) {
+            width: 7.6rem; 
+        }
+    }
+    @media screen and (max-width: 1200px){
+
+
+        li.nav-item:nth-child(1) {
+            padding-left: 2em;
+        }
+        li.nav-item {
+            padding-right: 0;
+            padding-left: 25px;
+        }
+    }
+}
+
